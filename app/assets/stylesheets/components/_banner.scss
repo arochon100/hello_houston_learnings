@@ -1,0 +1,27 @@
+.banner-home {
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.banner-home h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.banner-home p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}

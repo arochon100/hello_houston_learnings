@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HelloHoustonLearnings</title>
+    <title>Hello Houston Learnings</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -9,10 +9,11 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+    <%= favicon_link_tag asset_path('hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg') %>
   </head>
 
   <body>
-    <%= render 'shared/navbar' %>
+    <%# <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
 
     <%= yield %>
