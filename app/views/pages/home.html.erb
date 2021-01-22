@@ -1,10 +1,47 @@
-<% @title="Home" %>
+<%# TITLE %>
+<% @title="Homebis" %>
 
-<div class="banner-home-temp" style="background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(<%= asset_path 'hans-peter-gauster-3y1zF4hIPCg-unsplash.jpg' %>)">
-        <div>
-            <h1>Hello Houston Learnings </h1> 
-            <p>LEARNINGS THROUGH PLAY (2-6 Years Old)</p>
-            <p>Coming soon!</p>
-            <p>contact@hello-houston-learnings.com</p>
-        </div>  
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+<%# BANNER %>
+<div class="banner-home" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'banner_tree_2.jpg' %>)">
+    <div class="container">
+        <h1>HELLO HOUSTON LEARNINGS</h1> 
+        <h3>L'apprentissage par le jeu pour les 2 à 6 ans</h3>
+        <h3>Trouver un apprentissage pour votre enfant !</h3>
+        <p>Tous les apprentissages proposés s'appuient les principes des neurosciences, de la méthode de Singapour et de la pédagogie Montessori.</p>
+        <h2>DATE DE LANCEMENT : FÉVRIER 2021</h2> 
+    </div>  
+</div>
+
+
+<%# ACTIVITIES %>
+<div class="container activities">
+    <img src="<%= asset_path 'activities.png' %>" class="img-fluid" alt="">
+</div>
+
+<%# BLOCKS %>
+<div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-4">
+                <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'box_lego600x360.jpg' %>)" >
+                    <p>Apprentissages</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'développement.jpg' %>)" >
+                    <p>Développement de l'enfant</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'Boosters.jpg' %>)">
+                    <p>Boosters de l'apprentissage</p>
+                </div>
+            </div>
+            
+        </div>
     </div>
+
+
+    
