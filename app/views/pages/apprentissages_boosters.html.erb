@@ -1,0 +1,44 @@
+<%# TITLE %>
+<% @title="Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p><%= link_to "home", root_path, class: " link ariane", data: { turbolinks: false } %></p>     
+        </div>
+    </div>
+</div>
+
+
+<%# BLOCKS %>
+<div class="container learning-blocks">
+        <div class="row">
+
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_space_x.jpg' %>)" >
+                    <p>Game</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_space_sunset.jpg' %>)" >
+                    <p>Environement</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_blue_sky.jpg' %>)">
+                    <p>Emotion management</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_hangar.jpg' %>)">
+                    <p>Learning skills</p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
