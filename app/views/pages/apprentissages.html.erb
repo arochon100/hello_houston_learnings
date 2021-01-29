@@ -10,7 +10,8 @@
 <div class="container">
     <div class="row">
         <div class="fil-ariane">
-             <p><%= link_to "home", root_path, class: " link ariane", data: { turbolinks: false } %></p>     
+             <p><%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "apprentissages", apprentissages_path, class: " link ariane", data: { turbolinks: false } %> </p>     
         </div>
     </div>
 </div>
@@ -18,134 +19,119 @@
 
 <%# BLOCKS %>
 <div class="container learning-blocks">
+        
         <div class="row">
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_sports.jpg' %>)" >
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_intelligence.jpg' %>)" >
+                    <p>8 intelligences</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_sports.jpg' %>)" >
                     <p>Sports</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_music.jpg' %>)" >
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_music.jpg' %>)" >
                     <p>Music</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_cooking.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_cooking.jpg' %>)">
                     <p>Cooking</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_nature.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_nature.jpg' %>)">
                     <p>Nature</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_robotics.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_robotics.jpg' %>)">
                     <p>Robotics</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_math.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_math.jpg' %>)">
                     <p>Math</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_world.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_world.jpg' %>)">
                     <p>Discovering the world</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_right_left.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_right_left.jpg' %>)">
                     <p>Right / Left</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_time.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_time.jpg' %>)">
                     <p>Time</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_tidy_up.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_tidy_up.jpg' %>)">
                     <p>Tidying up</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_coding.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_coding.jpg' %>)">
                     <p>Coding</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'Boosters.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'Boosters.jpg' %>)">
                     <p>Science</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_drawing.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_drawing.jpg' %>)">
                     <p>Drawing</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_jigsaw.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_jigsaw.jpg' %>)">
                     <p>Puzzle</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_strategy.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_strategy.jpg' %>)">
                     <p>Jeux de stratégie</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_casse_tete.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_casse_tete.jpg' %>)">
                     <p>Casse-têtes</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_emotions.jpg' %>)">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_emotions.jpg' %>)">
                     <p>Émotions</p>
                 </div>
             </div>
 
             <%# HUIT INTELLIGENCES %>
-            <div class="col-12">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'III_logic.jpg' %>)">
-                    <p>L'intelligence logico-mathématique</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'III_linguistic.jpg' %>)">
-                    <p>L'intelligence verbale-linguistique</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'III_music.jpg' %>)">
-                    <p>L'intelligence musicale</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'III_gym.jpg' %>)">
-                    <p>L'intelligence corporelle-kinesthésique</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'III_interpersonal.jpg' %>)">
-                    <p>L'intelligence interpersonnelle</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'III-nature.jpg' %>)">
-                    <p>L'intelligence naturaliste</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_emotions.jpg' %>)">
-                    <p>L'intelligence intrapersonnelle</p>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'III-geometry.jpg' %>)">
-                    <p>L'intelligence visuelle sapciale</p>
-                </div>
-            </div>
+           
             
         </div>
     </div>

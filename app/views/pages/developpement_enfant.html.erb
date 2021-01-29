@@ -9,33 +9,48 @@
 <div class="container">
     <div class="row">
         <div class="fil-ariane">
-             <p><%= link_to "home", root_path, class: " link ariane", data: { turbolinks: false } %></p>     
+             <p><%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "developpement", developpement_enfant_5_ans_path, class: " link ariane", data: { turbolinks: false } %> </p>     
         </div>
     </div>
 </div>
 
 
-<%# BLOCKS %>
-<div class="container learning-blocks">
-        <div class="row">
+<div class="container">
+    <div class="row dev-title">
+            <div>
+                <h1>La compréhension du développement de mon enfant est 
+                la clé pour accompagner ses apprentissages ! </h1>
+            </div>
+    </div>        
+</div>
 
+<%# BLOCKS %>
+<div class="container">
+        
+        
+        <div class="row">
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_brain.jpg' %>)" >
+                <div class="box-dev" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_brain.jpg' %>)" >
                     <p>Le cerveau</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_motor.jpg' %>)" >
+                <div class="box-dev" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_motor.jpg' %>)" >
                     <p>la motricité</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_bilan.jpg' %>)">
+                <div class="box-dev" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_bilan.jpg' %>)">
                     <p>Bilan auditif, visuel, orthophoniste, motricité...</p>
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_inquiet.jpg' %>)">
+                <div class="box-dev" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_inquiet.jpg' %>)">
                     <p>Le développement de mon enfant me préoccupe !</p>
                 </div>
             </div>

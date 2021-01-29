@@ -12,10 +12,18 @@ p {
 }
 
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
 .link {
     text-decoration: none;
 }
 
-.link:hover {
+.link:over {
     text-decoration: none;
 }

@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <%= link_to root_path do %>
+    <%= link_to homebis_path do %>
         <%= image_tag "rocket_1.png", data: { turbolinks: false } %>
     <% end %>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,15 +11,14 @@
          
         
         <li class="nav-item">
-          <a class="nav-link" href="#">Apprentissages</a>
+           <%= link_to "Apprentissages", apprentissages_path, class: "nav-link" , data: { turbolinks: false } %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Développement de l'enfant</a>
+          <%= link_to "Développement de l'enfant", developpement_enfant_5_ans_path, class: "nav-link" , data: { turbolinks: false } %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Les boosters de l'apprentissage</a>
+          <%= link_to "Boosters de l'apprentissage", apprentissages_boosters_path, class: "nav-link" , data: { turbolinks: false } %>
         </li>
-        
       </ul>
     </div>
   </div>
