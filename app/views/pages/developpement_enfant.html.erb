@@ -1,0 +1,44 @@
+<%# TITLE %>
+<% @title="Le développement de la motricité globale de 0 à 5 ans | Hello Houston Learnings |" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p><%= link_to "home", root_path, class: " link ariane", data: { turbolinks: false } %></p>     
+        </div>
+    </div>
+</div>
+
+
+<%# BLOCKS %>
+<div class="container learning-blocks">
+        <div class="row">
+
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_brain.jpg' %>)" >
+                    <p>Le cerveau</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_motor.jpg' %>)" >
+                    <p>la motricité</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_bilan.jpg' %>)">
+                    <p>Bilan auditif, visuel, orthophoniste, motricité...</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_inquiet.jpg' %>)">
+                    <p>Le développement de mon enfant me préoccupe !</p>
+                </div>
+            </div>
+    
+        </div>
+    </div>
