@@ -105,6 +105,93 @@
   }
 } 
 
+// TROUBLES (HOME)
+
+.box-troubles-1 {
+    background-color: #0596de;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    // margin-right: 15px;
+    // margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-troubles-1 {
+    height: 150px;
+  }
+} 
+
+
+.box-troubles-1 p {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-troubles-1 p{
+    font-size: 30px;
+    padding: 0 10px;
+  }
+} 
+
+// TROUBLES AUDITION + VISUEL + ...
+
+.box-troubles{
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    // margin-right: 15px;
+    // margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-learnings {
+    height: 150px;
+  }
+} 
+
+
+.box-troubles p {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 15px;
+    // text-align: center;
+    padding: 5px;
+}
+
+.box-troubles ul li a{
+   color: white;
+   text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .box-learnings p{
+    font-size: 30px;
+    padding: 0 10px;
+  }
+} 
 
 //BOOSTERS APPRENTISSAGE
 
