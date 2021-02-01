@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :home, :homebis, :apprentissages, :apprentissages_boosters, 
-  :developpement_enfant, :troubles, :troubles_audition ]
+  :developpement_enfant, :troubles, :troubles_audition, :dev_cerveau ]
 
   def home
   end
@@ -33,5 +33,8 @@ class PagesController < ApplicationController
   end
 
   def troubles_orthopédique
+  end
+
+  def dev_cerveau
   end
 end

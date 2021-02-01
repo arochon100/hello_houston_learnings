@@ -8,7 +8,7 @@
 <%# ARIADNE'S THREAD %>
 <div class="container ariane-container">
     <div class="row">
-        <div class="fil-ariane">
+        <div class="col-12 fil-ariane">
              <p><%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
              <%= link_to "developpement", developpement_enfant_path, class: " link ariane", data: { turbolinks: false } %> </p>     
         </div>
@@ -29,10 +29,12 @@
 <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-4">
-                <div class="box-dev" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_brain.jpg' %>)" >
-                    <p>Le cerveau</p>
-                </div>
+                <%= link_to developpement_enfant_cerveau_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-dev" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'DDD_brain.jpg' %>)" >
+                        <p>Le cerveau</p>
+                    </div>
+                <% end %>
             </div>
             <div class="col-md-12 col-lg-4">
                 <div class="box-dev" style="background-image: 
@@ -41,15 +43,12 @@
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-
-
                 <%= link_to developpement_enfant_troubles_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-dev" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
                     url(<%= asset_path 'DDD_bilan.jpg' %>)" >
                         <p>Les troubles du développement</p>
                     </div>
                 <% end %>
-
             </div>
             <%# <div class="col-md-12 col-lg-4">
                 <div class="box-dev" style="background-image: 
