@@ -234,7 +234,7 @@
     background-color: #03bddf;
     background-size: cover;
     background-position: center;
-    height: 450px;
+    height: 100%;
     // display: flex;
     // justify-content: center;
     // align-items: center;
@@ -250,7 +250,7 @@
 
 @media screen and (min-width: 992px) {
   .box-plasticité-ressources {
-    height: 230px;
+    height: 100%;
   }
 } 
 

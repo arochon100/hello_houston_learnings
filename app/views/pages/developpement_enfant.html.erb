@@ -37,10 +37,12 @@
                 <% end %>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-dev" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path 'DDD_motor.jpg' %>)" >
-                    <p>la motricité</p>
-                </div>
+                <%= link_to developpement_enfant_motricite_etape_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-dev" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'DDD_motor.jpg' %>)" >
+                        <p>la motricité</p>
+                    </div>
+                <% end %>
             </div>
             <div class="col-md-12 col-lg-4">
                 <%= link_to developpement_enfant_troubles_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>

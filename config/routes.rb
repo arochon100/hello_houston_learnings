@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'developpement-enfant-troubles-audition' , to: 'pages#troubles_audition'
   get 'developpement-enfant-cerveau-plasticite' , to: 'pages#dev_cerveau'
   get 'developpement-enfant-cerveau-emotions' , to: 'pages#dev_cerveau_emotions'
+  get 'developpement-enfant-motricite-etape' , to: 'pages#dev_motricite'
   
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
