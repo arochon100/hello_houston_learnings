@@ -449,3 +449,88 @@
     margin-bottom: 10px;
 }
 
+// BOX EMOTION 6
+
+.box-emotion-6 {
+    background-color: #ccecfa;
+    background-size: cover;
+    background-position: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #224358;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    // margin-right: 15px;
+    // margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-emotion-6 {
+    height: 40px;
+  }
+} 
+
+
+.box-emotion-6 p {
+    margin-bottom: 0px;
+    color: #224358;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-emotion-6 p{
+    font-size: 25px;
+    padding: 0 10px;
+  }
+} 
+
+// BOX EMOTION 6
+
+.box-cerveau-emotion-how {
+    background-color: #0596de;
+    background-size: cover;
+    background-position: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    // margin-right: 15px;
+    // margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-cerveau-emotion-how {
+    height: 100px;
+  }
+} 
+
+
+.box-cerveau-emotion-how p {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-cerveau-emotion-how p{
+    font-size: 30px;
+    padding: 0 10px;
+  }
+} 
+
+
