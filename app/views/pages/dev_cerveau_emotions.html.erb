@@ -1,0 +1,75 @@
+<%# TITLE %>
+<% @title="Le développement de la motricité globale de 0 à 5 ans | Hello Houston Learnings |" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="col-12 fil-ariane">
+             <p><%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "developpement", developpement_enfant_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "cerveau", developpement_enfant_cerveau_plasticite_path, class: " link ariane", data: { turbolinks: false } %> 
+             </p>     
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <%= link_to developpement_enfant_cerveau_plasticite_path, class: "box-link", data: { turbolinks: false }, :action => 'go' do   %>
+            <div class="box-cerveau"  >
+                <p>Plasticité cérébrale</p>
+            </div>
+            <% end %>
+        </div>
+        <div class="col-6">
+            <%= link_to developpement_enfant_cerveau_emotions_path, class: "box-link", data: { turbolinks: false }, :action => 'go' do   %>
+            <div class="box-cerveau-ok"  >
+                <p>Les émotions</p>
+            </div>
+            <% end %>
+        </div>  
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p><strong>Un cerveau en construction !</strong></p>
+            <ul>
+                <li>L'enfant de moins de 5 ans est un être en construction avec un cerveau immature, fragile, malléable et vulnérable. </li>
+                <li>Son cerveau reptilien (siège des réactions de survie les plus basiques : lutte, fuite ou immobilisation) est la seule partie mature dès la naissance.</li>
+                <li>Les deux autres parties (cerveau émotionnel et cerveau supérieur) ainsi que les 
+                connexions qui les relient vont se développer en grandissant. </li>
+                <li>Avant 5 ans, l'enfant est en proie à de véritables tempêtes émotionnelles 
+                qui le submergent et donnent lieu à des comportements 
+                impulsifs/réflexes (crises, coups…). Il ne peut pas contrôler seul ses émotions.</li>
+            </ul>
+            <p style="text-align: center; color: #03bddf"><strong>Ce n'est pas qu'il en veut pas, mais c'est qu'il ne peut pas contrôler seul ses émotions !</strong></p>
+        </div>
+        
+        
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Y5Ua4AC7J8" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+             gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            
+            
+        </div>
+    </div>
+</div>
+
+

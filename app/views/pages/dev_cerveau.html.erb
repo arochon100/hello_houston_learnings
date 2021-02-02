@@ -11,7 +11,7 @@
         <div class="col-12 fil-ariane">
              <p><%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
              <%= link_to "developpement", developpement_enfant_path, class: " link ariane", data: { turbolinks: false } %> > 
-             <%= link_to "cerveau", developpement_enfant_cerveau_path, class: " link ariane", data: { turbolinks: false } %> 
+             <%= link_to "cerveau", developpement_enfant_cerveau_plasticite_path, class: " link ariane", data: { turbolinks: false } %> 
              </p>     
         </div>
     </div>
@@ -20,17 +20,24 @@
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <div class="box-cerveau-ok">
+            <%= link_to developpement_enfant_cerveau_plasticite_path, class: "box-link", data: { turbolinks: false }, :action => 'go' do   %>
+            <div class="box-cerveau-ok"  >
                 <p>Plasticité cérébrale</p>
             </div>
+            <% end %>
         </div>
         <div class="col-6">
-                <div class="box-cerveau">
-                    <p>Les émotions</p>
-                </div>
+            <%= link_to developpement_enfant_cerveau_emotions_path, class: "box-link", data: { turbolinks: false }, :action => 'go' do   %>
+            <div class="box-cerveau"  >
+                <p>Les émotions</p>
             </div>
+            <% end %>
+        </div>
+            
     </div>
 </div>
+
+
 
 <div class="container">
     <div class="row">
