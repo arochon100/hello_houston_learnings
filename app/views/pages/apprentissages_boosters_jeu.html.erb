@@ -1,0 +1,70 @@
+<%# TITLE %>
+<% @title="Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p><%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "boosters", apprentissages_boosters_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "jeu", apprentissages_boosters_jeu_path, class: " link ariane", data: { turbolinks: false } %> </p>     
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12" style="margin-top:20px">
+            <h1 style="text-align: center"><strong>JE JEU, UN DES ALLIÉS LES PLUS PUISSANTS DE L'APPRENTISSAGE</strong></h1>
+            <h3 style="text-align: center">Les conclusions sans appel des neurosciences</h3>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-jeu">
+                <h1>LA MONNAIE DU SAVOIR</h1>
+                <p>L'attention multipliée par le temps est la monnaie la plus élémentaire pour acheter du savoir,
+                 et que l'on maximise la volonté de la dépenser quand on aime un sujet que l'on apprend.</p>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="box-jeu">
+                <h1>LA RÉPÉTITION GAGE D'EXCELLENCE</h1>
+                <p>Jouer est sain, c'est la manière de promouvoir l'excellence en répétant une tâche
+                 jusqu'à la perfection.</p>
+            </div>   
+        </div>
+        <div class="col-12">
+            <div class="box-jeu">
+                <h1>PRISES D'INITITIVES ET LIEN SOCIAL</h1>
+                <p>Le jeu encourage la prise d'initiatives et le lien social. 
+                Tout le monde joue... les plus timides aussi.</p>
+            </div>   
+        </div>
+        <div class="col-12">
+            <div class="box-jeu">
+                <h1>DÉPASSER L'ANGOISSE</h1>
+                <p>Le jeu est un bon moyen our se libérer de ses préjugés.</p>
+            </div>   
+        </div>
+    </div>
+</div>
+
+
+
+<%# <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+</div> %>

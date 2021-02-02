@@ -34,9 +34,12 @@
         <div class="row">
 
             <div class="col-md-12 col-lg-4">
-                <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_space_x.jpg' %>)" >
-                    <p>Jeu</p>
-                </div>
+                <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_space_x.jpg' %>)" >
+                        <p>Jeu</p>
+                    </div>
+                <% end %>
             </div>
             <div class="col-md-12 col-lg-4">
                 <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_space_sunset.jpg' %>)" >
@@ -49,7 +52,7 @@
                 </div>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_hangar.jpg' %>)">
+                <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_last.jpg' %>)">
                     <p>Pédagogies</p>
                 </div>
             </div>
