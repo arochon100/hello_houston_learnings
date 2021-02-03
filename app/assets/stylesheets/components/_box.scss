@@ -359,10 +359,11 @@
 .box-boosters {
     background-size: cover;
     background-position: center;
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -382,14 +383,14 @@
 .box-boosters p {
     margin-bottom: 0px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     padding: 5px;
 }
 
 @media screen and (min-width: 992px) {
   .box-boosters p{
-    font-size: 30px;
+    font-size: 20px;
     padding: 0 10px;
   }
 } 
@@ -403,6 +404,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    vertical-align: center;
     color: white;
     font-weight: bold;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);

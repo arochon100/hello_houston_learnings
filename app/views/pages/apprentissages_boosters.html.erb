@@ -42,20 +42,34 @@
                 <% end %>
             </div>
             <div class="col-md-12 col-lg-4">
-                <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_space_sunset.jpg' %>)" >
-                    <p>Environnement</p>
-                </div>
-            </div>
+                <%= link_to apprentissages_boosters_environnement_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_space_sunset.jpg' %>)" >
+                        <p>Environnement</p>
+                    </div>
+                <% end %>
+            </div>    
+            
+           
             <div class="col-md-12 col-lg-4">
-                <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_blue_sky.jpg' %>)">
-                    <p>Gestion des émotions</p>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-4">
-                <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_last.jpg' %>)">
-                    <p>Pédagogies</p>
-                </div>
+                <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_space_sunset.jpg' %>)" >
+                        <p>Neurosciences</p>
+                        <p>Méthode de Singapour</p>
+                        <p>Montessori</p>
+                    </div>
+                <% end %>
             </div>
     
         </div>
     </div>
+
+
+
+<!--
+ <div class="col-md-12 col-lg-4">
+                <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'BBB_blue_sky.jpg' %>)">
+                    <p>Gestion des émotions</p>
+                </div>
+            </div> -->

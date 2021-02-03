@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   get 'developpement-enfant-cerveau-emotions' , to: 'pages#dev_cerveau_emotions'
   get 'developpement-enfant-motricite-etape' , to: 'pages#dev_motricite'
   get 'apprentissages-boosters-jeu' , to: 'pages#apprentissages_boosters_jeu'
+  get 'apprentissages-boosters-environnement' , to: 'pages#apprentissages_boosters_environnement'
+  get 'apprentissages-boosters-pedagogie' , to: 'pages#apprentissages_boosters_pedagogie'
   
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
