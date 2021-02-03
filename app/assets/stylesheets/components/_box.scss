@@ -539,7 +539,7 @@
     background-color: #03bddf;
     // background-size: cover;
     // background-position: center;
-    height: 350px;
+    height: 370px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -592,3 +592,45 @@
 
   }
 } 
+
+
+
+// BOX > BOOSTERS > JEU
+
+.box-boosters-jeu{
+    background-color: #0596de;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    // margin-right: 15px;
+    // margin-left: 15px;
+    margin: 20px 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-boosters-jeu {
+    height: 100%;
+  }
+} 
+
+
+.box-boosters-jeu p {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 15px;
+    // text-align: center;
+    padding: 5px;
+}
+
+.box-boosters-jeu ul li a{
+   color: white;
+   text-decoration: none;
+}
