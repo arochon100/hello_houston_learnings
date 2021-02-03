@@ -1,0 +1,77 @@
+<%# TITLE %>
+<% @title=" Apprentissages et l'environnement |Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p><%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "boosters", apprentissages_boosters_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "environnement", apprentissages_boosters_environnement_montessori_path, class: " link ariane", data: { turbolinks: false } %> </p>     
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12" style="margin-top:20px">
+            <h1 style="text-align: center"><strong>UN ENVIRONNEMENT ADAPTÉ À L'ENFANT</strong></h1>
+            <h2 style="text-align: center">(Montessori)</h2>
+        </div>
+    </div>
+</div>
+
+
+<div class="container env-adapte" style="margin-top: 40px">
+    <div class="row">
+        <div class="col-12">
+            <h3>Un environnement spécialement adapté :</h3>
+            <ul>
+                <li>favorise la concentration et un meilleur contrôle de soi.</li>
+                <li>rend l'enfant aussi indépendant que possible.</li>
+                <li>permet l'auto-activité. l’enfant choisira des activités en fonction
+                 de ses motivations profondes et sera beaucoup plus réceptif aux apprentissages qu’il en retirera.</li>
+                <li>à pour objectif que chaque enfant maximise sa liberté d’apprendre et d’explorer à travers le mouvement 
+                tout en ayant des choix dans un environnement structuré.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="margin-top: 20px">
+        
+        <div class="row">
+
+            <div class="col-md-12 col-lg-6">
+                <%= link_to apprentissages_boosters_environnement_enfant_chambre_montessori_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_bedroom.png' %>)" >
+                        <p>Ma chambre Montessori</p>
+                    </div>
+                <% end %>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <%= link_to apprentissages_boosters_environnement_montessori_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'DDD_kitchen.jpg' %>)" >
+                        <p>Ma cuisine Montessori</p>
+                    </div>
+                <% end %>
+            </div>  
+    
+        </div>
+    </div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+        
+        </div>
+    </div>
+</div>
