@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get 'apprentissages-boosters-environnement-montessori' , to: 'pages#apprentissages_boosters_environnement'
   get 'apprentissages-boosters-environnement-enfant-chambre-montessori' , to: 'pages#apprentissages_boosters_environnement_chambre'
   get 'apprentissages-boosters-pedagogie' , to: 'pages#apprentissages_boosters_pedagogie'
+  get 'apprentissages-boosters-neurosciences' , to: 'pages#apprentissages_boosters_neurosciences'
   
   
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html

@@ -1,0 +1,86 @@
+<%# TITLE %>
+<% @title="Apprentissages et Neurosciences | Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p><%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "boosters", apprentissages_boosters_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "jeu", apprentissages_boosters_jeu_path, class: " link ariane", data: { turbolinks: false } %> </p>     
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12" style="margin-top:20px">
+            <h1 style="text-align: center"><strong>COMMENT LES NEUROSCIENCES NOUS AIDENT À BOOSTER LES APPRENTISSAGES</strong></h1>
+
+        </div>
+    </div>
+</div>
+
+<%# BLOCKS %>
+<div class="container" style="margin-top: 30px">
+        
+        <div class="row">
+
+            <div class="col-4">
+                <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                    url(<%= asset_path 'NNN_neuroergonomie.jpg' %>)" >
+                        <p>La neuroergonomie & l'économie de la connaissance</p>
+                    </div>
+                <% end %>
+            </div>
+            <div class="col-4">
+                <%= link_to apprentissages_boosters_environnement_montessori_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                    url(<%= asset_path 'NNN_piliers.jpg' %>)" >
+                        <p>Les 4 piliers de la connaissance</p>
+                    </div>
+                <% end %>
+            </div>    
+            
+           
+            <div class="col-4">
+                <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                    url(<%= asset_path 'NNN_learning.jpg' %>)" >
+                        <p>Activités qui boostent les apprentissages et le QI</p>
+                    </div>
+                <% end %>
+            </div>
+    
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div>
+                
+            </div>
+        </div>
+    </div>
+</div>

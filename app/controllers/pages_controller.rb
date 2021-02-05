@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :home, :homebis, :apprentissages, :apprentissages_boosters, 
   :developpement_enfant, :troubles, :troubles_audition, :dev_cerveau, :dev_cerveau_emotions, :dev_motricite,
   :apprentissages_boosters_jeu, :apprentissages_boosters_environnement, :apprentissages_boosters_pedagogie, 
-  :apprentissages_boosters_environnement_chambre ]
+  :apprentissages_boosters_environnement_chambre, :apprentissages_boosters_neurosciences ]
 
   def home
   end
@@ -60,6 +60,9 @@ class PagesController < ApplicationController
  end
 
  def apprentissages_boosters_pedagogie
+ end
+
+ def apprentissages_boosters_neurosciences
  end
 
 end
