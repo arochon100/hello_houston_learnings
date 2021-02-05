@@ -165,7 +165,7 @@
     background-color: #03bddf;
     // background-size: cover;
     // background-position: center;
-    height: 250px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +182,7 @@
 
 @media screen and (min-width: 992px) {
   .box-reference {
-    height: 170px;
+    height: 100%;
   }
 } 
 
@@ -226,7 +226,7 @@
     background-color: #03bddf;
     // background-size: cover;
     // background-position: center;
-    height: 370px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +243,7 @@
 
 @media screen and (min-width: 992px) {
   .box-jeu {
-    height: 170px;
+    height: 100%;
   }
 } 
 
