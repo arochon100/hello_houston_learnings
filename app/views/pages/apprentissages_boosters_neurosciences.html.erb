@@ -9,21 +9,17 @@
 <div class="container ariane-container">
     <div class="row">
         <div class="fil-ariane">
-             <p><%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
-             <%= link_to "boosters", apprentissages_boosters_path, class: " link ariane", data: { turbolinks: false } %> >
-             <%= link_to "jeu", apprentissages_boosters_jeu_path, class: " link ariane", data: { turbolinks: false } %> </p>     
+             <p>
+             <%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "boosters apprentissage", apprentissages_boosters_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "3 supers héros", apprentissages_boosters_pedagogie_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "neurosciences", apprentissages_boosters_neurosciences_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "neuroergonomie", apprentissages_boosters_neurosciences_path, class: " link ariane", data: { turbolinks: false } %> 
+             </p>     
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-12" style="margin-top:20px">
-            <h1 style="text-align: center"><strong>COMMENT LES NEUROSCIENCES NOUS AIDENT À BOOSTER LES APPRENTISSAGES</strong></h1>
-
-        </div>
-    </div>
-</div>
 
 <%# BLOCKS %>
 <div class="container" style="margin-top: 30px">
@@ -34,7 +30,7 @@
                 <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                     url(<%= asset_path 'NNN_neuroergonomie.jpg' %>)" >
-                        <p>Neuroergonomie</p>
+                        <p style="color:#03bddf">Neuroergonomie</p>
                     </div>
                 <% end %>
             </div>
@@ -64,6 +60,119 @@
 
 
 
+<div>
+    <h1 style="text-align:center; font-weight:bold; margin-top:20px">LA NEUROERGONOMIE ET L'ÉCONOMIE DE LA CONNAISSANCE</h1>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="neuro-h2" style="margin-top:40px">
+                <h2>LA NEUROERGONOMIE</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="image-book">
+                <%= image_tag("tabouret_chaise.png", class: ".img-fluid img-motricite") %>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container" style="margin-top:20px">
+    <div class="row">
+        <div class="col-12">
+            <div>
+                <ul>
+                    <li>La neuroergonomie , c'est l'art de bien utiliser le cerveau humain.</li>
+                    <li>De même qu’une chaise est plus ergonomique qu’un tabouret parce qu’elle distribue mieux 
+                        le poids de son utilisateur, on pourrait distribuer autrement, et plus efficacement, 
+                        le poids de la connaissance, de l’information et de l’expérience sur notre cerveau.</li>
+                </ul>
+            </div>
+        </div>    
+    </div>
+</div>
+
+<div class="container" style="margin-botom:20px">
+    <div class="row">
+        <div class="col-12">
+            <div>
+                <h3 style="margin:0">L'empan cognitif </h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="image-book">
+                <%= image_tag("poignée.png", class: ".img-fluid img-motricite") %>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div>
+                <ul>
+                    <li>Notre cerveau a des articulations, il y a des mouvements qu’il peut ou ne peut pas faire, 
+                    il a des limites claires, des empans.</li>
+                    <li>L’empan de la main, c’est la distance qui va du bout de notre pouce au bout de notre 
+                    petit doigt, main ouverte. Il conditionne ce que l’on peut saisir. Mais nous pouvons saisir 
+                    des objets bien plus gros que notre main s’ils ont une poignée. (ex : valise) </li>
+                    <li>Si nous pouvons soulever des objets plus encombrants que l’empan de notre main à 
+                    la condition qu’ils soient munis d’une poignée, il en va de même des concepts. Notre 
+                    cerveau peut soulever des concepts encombrants s’ils lui sont présentés ergonomiquement.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container" style="">
+    <div class="row">
+        <div class="col-12">
+            <div class="neuro-h2" style="margin-top:40px">
+                <h2>L'ÉCONOMIE DU SAVOIR</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<%# ******************************* %>
+
+<div class="container" style="">
+    <div class="row">
+        <div class="col-12">
+            <div>
+            
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 
 
 
@@ -84,3 +193,23 @@
         </div>
     </div>
 </div>
+
+
+
+<%# <div class="container" style="margin-top:15px">
+    <div class="row">
+        <div class="col-12">
+            <div class="neuro-citations">
+                <p>"Le cerveau aime munir les choses de poignées. 
+                c'est une des bases de la neuroergonomie" - Idriss Aberkane</p>
+                <p>"Les deux plus hautes formes d'excellence dans l'économie de la connaissance
+                 sont l'excellence amoureuse et l'exellence amusante." - Idriss Aberkane</p>
+            </div>
+        </div>
+    </div>
+</div> %>
+
+
+<%# <div class="neuro-citations">
+    <p >"Le cerveau aime munir les choses de poignées. C’est une des bases de la neuroergonomie." - Idriss Aberkane </p>
+</div> %>

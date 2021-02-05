@@ -62,7 +62,12 @@ class PagesController < ApplicationController
  def apprentissages_boosters_pedagogie
  end
 
- def apprentissages_boosters_neurosciences
- end
+        def apprentissages_boosters_neurosciences
+        end
+
+                def method_name
+                  
+                end
+                
 
 end
