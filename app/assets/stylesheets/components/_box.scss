@@ -161,6 +161,64 @@
   }
 } 
 
+.box-reference {
+    background-color: #03bddf;
+    // background-size: cover;
+    // background-position: center;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    // margin-right: 15px;
+    // margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-reference {
+    height: 170px;
+  }
+} 
+
+
+.box-reference h1 {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.box-reference p {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-reference p{
+    font-size: 15px;
+    padding: 0 10px;
+  }
+} 
+
+
+@media screen and (min-width: 992px) {
+  .box-reference h1{
+    font-size: 30px;
+    padding: 0px 10px 10px 10px ;
+
+  }
+} 
 
 // BOOSTERS > JEU
 
