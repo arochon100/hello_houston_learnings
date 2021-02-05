@@ -23,11 +23,9 @@
 
 <%# BLOCKS %>
 <div class="container" style="margin-top: 30px">
-        
         <div class="row">
-
             <div class="col-4">
-                <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                <%= link_to apprentissages_boosters_neurosciences_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                     url(<%= asset_path 'NNN_neuroergonomie.jpg' %>)" >
                         <p style="color:#03bddf">Neuroergonomie</p>
@@ -35,7 +33,7 @@
                 <% end %>
             </div>
             <div class="col-4">
-                <%= link_to apprentissages_boosters_environnement_montessori_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                <%= link_to apprentissages_boosters_neurosciences_4_piliers_apprentissage_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                     url(<%= asset_path 'NNN_piliers.jpg' %>)" >
                         <p>4 piliers de l'apprentissage</p>
@@ -45,20 +43,15 @@
             
            
             <div class="col-4">
-                <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                <%= link_to apprentissages_boosters_neurosciences_activites_qi_concentration_controle_de_soi_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
                     url(<%= asset_path 'NNN_learning.jpg' %>)" >
                         <p>Activités recommandées</p>
                     </div>
                 <% end %>
             </div>
-    
         </div>
-    </div>
-
-
-
-
+</div>
 
 <div>
     <h1 style="text-align:center; font-weight:bold; margin-top:20px">LA NEUROERGONOMIE ET L'ÉCONOMIE DE LA CONNAISSANCE</h1>
@@ -151,11 +144,30 @@
     <div class="row">
         <div class="col-12">
             <div class="neuro-h2" style="margin-top:40px">
-                <h2>L'ÉCONOMIE DU SAVOIR</h2>
+                <h2>L'ÉCONOMIE DE LA CONNAISSANCE</h2>
             </div>
         </div>
     </div>
 </div>
+
+
+<div class="container" style="">
+    <div class="row">
+        <div class="col-12">
+            <div>
+                <ul>
+                    <li>L’attention multipliée par le temps est la monnaie la plus élémentaire pour acheter du savoir,
+                        et que l’on maximise la volonté de la dépenser quand on aime le sujet que l’on apprend.</li>
+                    <li>Les deux plus hautes formes d’excellence, on l’a vu dans l’économie de la connaissance, sont l’excellence 
+                    amoureuse et l’excellence amusante. Elles émergent spontanément chez ceux qui se créent des défis autour
+                    de leur pratique, comme ces coursiers à vélo qui ont transformé leur métier en sport, par exemple.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 
 

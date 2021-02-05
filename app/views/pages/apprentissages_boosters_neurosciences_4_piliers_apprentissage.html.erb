@@ -1,0 +1,83 @@
+<%# TITLE %>
+<% @title="Les 4 piliers de l'apprentissage (Stanislas Dehaene) | Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p>
+             <%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "boosters apprentissage", apprentissages_boosters_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "3 supers héros", apprentissages_boosters_pedagogie_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "neurosciences", apprentissages_boosters_neurosciences_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "les 4 piliers de l'apprentissage", apprentissages_boosters_neurosciences_4_piliers_apprentissage_path, class: " link ariane", data: { turbolinks: false } %> 
+             </p>     
+        </div>
+    </div>
+</div>
+
+
+<%# BLOCKS %>
+<div class="container" style="margin-top: 30px">
+        <div class="row">
+            <div class="col-4">
+                <%= link_to apprentissages_boosters_neurosciences_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                    url(<%= asset_path 'NNN_neuroergonomie.jpg' %>)" >
+                        <p >Neuroergonomie</p>
+                    </div>
+                <% end %>
+            </div>
+            <div class="col-4">
+                <%= link_to apprentissages_boosters_neurosciences_4_piliers_apprentissage_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                    url(<%= asset_path 'NNN_piliers.jpg' %>)" >
+                        <p style="color:#03bddf">4 piliers de l'apprentissage</p>
+                    </div>
+                <% end %>
+            </div>    
+            
+           
+            <div class="col-4">
+                <%= link_to apprentissages_boosters_neurosciences_activites_qi_concentration_controle_de_soi_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-neurosciences" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+                    url(<%= asset_path 'NNN_learning.jpg' %>)" >
+                        <p>Activités recommandées</p>
+                    </div>
+                <% end %>
+            </div>
+        </div>
+</div>
+
+
+<div>
+    <h1 style="text-align:center; font-weight:bold; margin-top:20px">LES 4 PILIERS DE L'APPRENTISSAGE</h1>
+    <p style="text-align:center;">(Stanislas Dehaene)</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container" style="">
+    <div class="row">
+        <div class="col-12">
+            <div>
+            
+            </div>
+        </div>
+    </div>
+</div>
