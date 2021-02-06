@@ -4,3 +4,16 @@
     // padding: 0px 60px 0px 30px;
     text-align: center;
 }
+
+.title-dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .title-dev-1 {
+    width: 800px;
+  }
+} 
+
