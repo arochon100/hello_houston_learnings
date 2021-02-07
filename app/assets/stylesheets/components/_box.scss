@@ -487,10 +487,17 @@
 .box-neurosciences p {
     margin-bottom: 0px;
     color: white;
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
     padding: 5px;
 }
+
+@media screen and (min-width: 768px) {
+  .box-neurosciences p{
+    font-size: 15px;
+    padding: 0 10px;
+  }
+} 
 
 @media screen and (min-width: 992px) {
   .box-neurosciences p{
