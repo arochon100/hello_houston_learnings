@@ -3,7 +3,8 @@ class PagesController < ApplicationController
   :developpement_enfant, :troubles, :troubles_audition, :dev_cerveau, :dev_cerveau_emotions, :dev_motricite,
   :apprentissages_boosters_jeu, :apprentissages_boosters_environnement, :apprentissages_boosters_pedagogie, 
   :apprentissages_boosters_environnement_chambre, :apprentissages_boosters_neurosciences, 
-  :apprentissages_boosters_neurosciences_4_piliers_apprentissage, :apprentissages_boosters_neurosciences_activites ]
+  :apprentissages_boosters_neurosciences_4_piliers_apprentissage, :apprentissages_boosters_neurosciences_activites,
+  :apprentissages_boosters_singapour ]
 
   def home
   end
@@ -74,5 +75,8 @@ class PagesController < ApplicationController
                   
                 end
                 
+def apprentissages_boosters_singapour
+end
+
 
 end

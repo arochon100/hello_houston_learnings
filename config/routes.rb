@@ -17,8 +17,7 @@ Rails.application.routes.draw do
   get 'apprentissages-boosters-neurosciences' , to: 'pages#apprentissages_boosters_neurosciences'
   get 'apprentissages-boosters-neurosciences-4-piliers-apprentissage' , to: 'pages#apprentissages_boosters_neurosciences_4_piliers_apprentissage'
   get 'apprentissages-boosters-neurosciences-activites-qi-concentration-controle-de-soi' , to: 'pages#apprentissages_boosters_neurosciences_activites'
-  
+  get 'apprentissages-boosters-methode-de-singapour' , to: 'pages#apprentissages_boosters_singapour'
   
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
-
