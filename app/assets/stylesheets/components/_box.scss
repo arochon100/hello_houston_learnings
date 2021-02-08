@@ -718,6 +718,20 @@
   }
 } 
 
+.box-montessori-intro ul li {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 15px;
+    // text-align: justify;
+    padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-montessori-intro ul li{
+    font-size: 15px;
+    padding: 0 10px;
+  }
+} 
 
 @media screen and (min-width: 992px) {
   .box-montessori-intro h2{
@@ -772,8 +786,23 @@
     padding: 5px;
 }
 
+.box-montessori ul li {
+    margin-bottom: 0px;
+    // color: white;
+    font-size: 15px;
+    // text-align: justify;
+    padding: 5px;
+}
+
 @media screen and (min-width: 992px) {
   .box-montessori p{
+    font-size: 15px;
+    padding: 0 10px;
+  }
+} 
+
+@media screen and (min-width: 992px) {
+  .box-montessori ul li{
     font-size: 15px;
     padding: 0 10px;
   }
