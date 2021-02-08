@@ -3,11 +3,18 @@
 }
 
 .neuro-citations p {
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 8px;
     font-weight: bold;
     color: #11689e;
 }
+
+@media screen and (min-width: 992px) {
+  .neuro-citations {
+    width: 800px;
+    margin: 0 auto;
+  }
+} 
 
 .neuro-h2 h2 {
     color: #03bddf;
