@@ -4,7 +4,7 @@ class PagesController < ApplicationController
   :apprentissages_boosters_jeu, :apprentissages_boosters_environnement, :apprentissages_boosters_pedagogie, 
   :apprentissages_boosters_environnement_chambre, :apprentissages_boosters_neurosciences, 
   :apprentissages_boosters_neurosciences_4_piliers_apprentissage, :apprentissages_boosters_neurosciences_activites,
-  :apprentissages_boosters_singapour ]
+  :apprentissages_boosters_singapour, :apprentissages_boosters_montessori]
 
   def home
   end
@@ -18,7 +18,6 @@ class PagesController < ApplicationController
   def apprentissages
   end
 
-  
 
   def developpement_enfant
   end
@@ -52,31 +51,40 @@ class PagesController < ApplicationController
   def apprentissages_boosters
   end
 
-  def apprentissages_boosters_jeu
-  end
+# BOOSTERS > JEU
 
- def apprentissages_boosters_environnement
- end
-
- def apprentissages_boosters_environnement_chambre
- end
-
- def apprentissages_boosters_pedagogie
- end
-
-        def apprentissages_boosters_neurosciences
+        def apprentissages_boosters_jeu
         end
 
-                def apprentissages_boosters_neurosciences_4_piliers_apprentissage
-                  
+# BOOSTERS > PEDAGOGIE
+
+        def apprentissages_boosters_environnement
+        end
+
+                def apprentissages_boosters_environnement_chambre
                 end
 
-                def apprentissages_boosters_neurosciences_activites
-                  
+# BOOSTERS > PEDAGOGIE
+
+        def apprentissages_boosters_pedagogie
+        end
+
+                def apprentissages_boosters_neurosciences
                 end
+
+                        def apprentissages_boosters_neurosciences_4_piliers_apprentissage
+                          
+                        end
+
+                        def apprentissages_boosters_neurosciences_activites
+                          
+                        end
+                        
+                def apprentissages_boosters_singapour
+                end
+
+                def apprentissages_boosters_montessori
+                end
+
                 
-def apprentissages_boosters_singapour
-end
-
-
 end
