@@ -640,6 +640,21 @@
   }
 } 
 
+.box-singapour ul li {
+    margin-bottom: 0px;
+    // color: white;
+    font-size: 15px;
+    // text-align: justify;
+    padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-singapour ul li{
+    font-size: 15px;
+    padding: 0 10px;
+  }
+} 
+
 
 @media screen and (min-width: 992px) {
   .box-singapour h2{
