@@ -298,3 +298,54 @@
     color: white;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+
+//BOOSTER > ENVIRONNEMENT > MONTESSORI > CHAMBRE
+
+
+
+.banner-montessori {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .banner-montessori {
+    height: 350px;
+  }
+} 
+
+.banner-montessori  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.banner-montessori  h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 32px;
+}
+
+.banner-montessori  h3 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner-montessori  p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
