@@ -1,0 +1,29 @@
+<%# TITLE %>
+<% @title=" Apprentissages et l'environnement |Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+
+<%# BANNER %>
+<div class="banner-montessori" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),
+ url(<%= asset_path 'MMM-maison-3.jpg' %>)">
+    <div class="container">
+        <h1 style="margin-bottom:0px">MA MAISON MONTESSORI</h1> 
+    </div>  
+</div>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p>
+             <%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "boosters apprentissage", apprentissages_boosters_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "environnement", apprentissages_boosters_environnement_montessori_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "maison montessori", apprentissages_boosters_environnement_enfant_maison_montessori_path, class: " link ariane", data: { turbolinks: false } %>
+             </p>     
+        </div>
+    </div>
+</div>

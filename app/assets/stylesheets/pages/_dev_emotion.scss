@@ -2,4 +2,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px 0;
 }
+
+.titre-emotion {
+
+}
+
+@media screen and (min-width: 992px) {
+  .titre-emotion h1{
+    width: 800px;
+    margin: 0 auto;
+  }
+} 

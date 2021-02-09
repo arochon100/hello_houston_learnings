@@ -36,16 +36,51 @@
     </div>
 </div>
 
+<%# BANNER %>
 <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="banner-plasticite-cerebrale" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
+            url(<%= asset_path 'DDD-emotions.jpg' %>)">
+                <div>
+                <h1 >LES ÉMOTIONS CHEZ LES MOINS DE 5 ANS</h1> 
+                </div>
+            </div>      
+        </div>  
+    </div>
+</div>
+
+<%# <div class="container titre-emotion">
     <div class="row">
         <div class="col-12" style="margin-top:20px">
             <h1 style="text-align: center"><strong>LES ÉMOTIONS ET LE CERVEAU CHEZ LES MOINS DE 5 ANS</strong></h1>
         </div>
     </div>
+</div> %>
+
+
+
+
+<div class="container box-container-emotion" style="margin-top: 10px">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-dev-cerveau-emotion">
+                <h2>Importance des émotions</h2>
+                <ul>
+                    <li>Une émotion est une réaction d’adaptation à notre environnement
+                     et à ce qui nous arrive. C’est un signal envoyé par notre corps pour
+                      nous informer sur notre état et nos besoins. </li>
+                    <li>Elles nous poussent à agir, à réagir 
+                    face aux situations que nous vivons. Elles ont joué un rôle majeur 
+                    dans la survie et l'évolution de l'homme depuis la nuit des temps. 
+                    La peur nous protège du danger, la colère mobilise notre énergie…</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </div>
 
-
-<div class="container" style="margin-top:30px">
+<%# <div class="container" style="margin-top:30px">
     <div class="Row">
         <div class="col-12">
             <p><strong>Importance des émotions</strong></p>
@@ -58,14 +93,14 @@
                     dans la survie et l'évolution de l'homme depuis la nuit des temps. 
                     La peur nous protège du danger, la colère mobilise notre énergie…</li>
                 </ul>
-        </div>
-        <div class="col-12">
-            <p><strong>Les 6 émotions de base</strong></p>
-        </div> 
-    </div>
-</div>
+        </div> %>
 
-<div class="container">
+<div class="container box-container-emotion" style="margin-top: 10px">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-dev-cerveau-emotion">
+                <h2 style="padding-bottom: 15px">Les 6 émotions de base</h2>
+                <div class="container">
     <div class="row">   
         <div class="col-6 ">
             <div class="box-emotion-6">
@@ -99,48 +134,82 @@
         </div>         
     </div>
 </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<div class="container" style="margin-top:30px">
+        <%# <div class="col-12">
+            <p><strong>Les 6 émotions de base</strong></p>
+            
+        </div> 
+    </div>
+</div> %>
+
+<%# <div class="container">
+    <div class="row">   
+        <div class="col-6 ">
+            <div class="box-emotion-6">
+                <p>La joie</p>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="box-emotion-6">
+                <p>La tristesse</p>
+            </div>
+        </div>  
+        <div class="col-6 ">
+            <div class="box-emotion-6">
+                <p>La peur</p>
+            </div>
+        </div>  
+        <div class="col-6 ">
+            <div class="box-emotion-6">
+                <p>La colère</p>
+            </div>
+        </div>  
+        <div class="col-6 ">
+            <div class="box-emotion-6">
+                <p>La surprise</p>
+            </div>
+        </div>      
+        <div class="col-6 ">
+            <div class="box-emotion-6">
+                <p>La dégoût</p>
+            </div>
+        </div>         
+    </div>
+</div> %>
+
+
+
+
+<div class="container box-container-emotion" style="margin-top: 10px">
     <div class="row">
         <div class="col-12">
-            <p><strong>Un cerveau en construction !</strong></p>
-            <br>
-            <div class="col-12 dev-emotion-image">
-                <%= image_tag("DDD-cerveau-emotions.jpg", class: "margin: 0, auto") %>
+            <div class="box-dev-cerveau-emotion">
+                <h2>Un cerveau en construction !</h2>
+                <div class="col-12 dev-emotion-image">
+                    <%= image_tag("DDD-cerveau-emotions.jpg") %>
+                </div>
+                <ul>
+                    <li>L'enfant de moins de 5 ans est un être en construction avec un cerveau immature, fragile, malléable et vulnérable. </li>
+                    <li>Son cerveau reptilien (siège des réactions de survie les plus basiques : lutte, fuite ou immobilisation) est la 
+                    seule partie mature dès la naissance.</li>
+                    <li>Les deux autres parties (cerveau émotionnel et cerveau supérieur) ainsi que les 
+                    connexions qui les relient vont se développer en grandissant. </li>
+                    <li>Avant 5 ans, l'enfant est en proie à de véritables tempêtes émotionnelles 
+                    qui le submergent et donnent lieu à des comportements 
+                    impulsifs/réflexes (crises, coups…). Il ne peut pas contrôler seul ses émotions.</li>
+                </ul>
+                <p style="text-align: center; color: #03bddf"><strong>Ce n'est pas qu'il ne veut pas, mais c'est qu'il ne 
+                peut pas contrôler seul ses émotions !</strong></p>
             </div>
-                
-            <br>
-            <br>
-              <ul>
-                <li>L'enfant de moins de 5 ans est un être en construction avec un cerveau immature, fragile, malléable et vulnérable. </li>
-                <li>Son cerveau reptilien (siège des réactions de survie les plus basiques : lutte, fuite ou immobilisation) est la seule partie mature dès la naissance.</li>
-                <li>Les deux autres parties (cerveau émotionnel et cerveau supérieur) ainsi que les 
-                connexions qui les relient vont se développer en grandissant. </li>
-                <li>Avant 5 ans, l'enfant est en proie à de véritables tempêtes émotionnelles 
-                qui le submergent et donnent lieu à des comportements 
-                impulsifs/réflexes (crises, coups…). Il ne peut pas contrôler seul ses émotions.</li>
-            </ul>
-            <p style="text-align: center; color: #03bddf"><strong>Ce n'est pas qu'il ne veut pas, mais c'est qu'il ne peut pas contrôler seul ses émotions !</strong></p>
         </div>
-        
-        
     </div>
 </div>
 
-<div class="container" >
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
-            <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Y5Ua4AC7J8" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-             gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-        <div class="col-2"></div>
-    </div>
-</div>
-
-<div class="container" style="margin-top:30px">
+<div class="container" style="margin-top:10px">
     <div class="row">
         <div class="col-12">
             <div>
@@ -154,11 +223,27 @@
     </div>
 </div>
 
+<div class="container" >
+    <div class="row">
+        <div class="col-12">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-Y5Ua4AC7J8" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+             gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+    </div>
+</div>
+
+
+
+
+
 <div class="container"style="margin-top:30px">
     <div class="row">
         <div class="col-12">
             <p><span class="source"><%= link_to "Source(s) : Petit guide de survie… à l’usage des émotions - Wesco", 
-        "https://leblog.wesco.fr/petit-guide-de-survie-a-lusage-emotions_1950_a", class: "source-link",target: "_blank", data: { turbolinks: false } %><span></p>
+        "https://leblog.wesco.fr/petit-guide-de-survie-a-lusage-emotions_1950_a", class: "source-link",
+        target: "_blank", data: { turbolinks: false } %><span></p>
         </div>
     </div>
 </div>
