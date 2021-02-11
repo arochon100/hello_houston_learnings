@@ -6,8 +6,21 @@ Rails.application.routes.draw do
   get 'homebis' , to: 'pages#homebis'
 
 
+# ***********************************************************************
+# ***********************************************************************
+# ***********************************************************************
+
+
   # APPRENTISSAGES
   get 'apprentissages' , to: 'pages#apprentissages'
+        # APPRENTISSAGES > puzzle
+        get 'apprentissages-puzzle' , to: 'pages#apprentissages_puzzle'
+
+
+
+# ***********************************************************************
+# ***********************************************************************
+# ***********************************************************************
 
 
   # BOOSTERS
@@ -30,6 +43,14 @@ Rails.application.routes.draw do
           get 'apprentissages-boosters-methode-de-singapour' , to: 'pages#apprentissages_boosters_singapour'
           # BOOSTERS > PEDAGOGIE > MONTESSORI
           get 'apprentissages-boosters-pedagogie-de-montessori' , to: 'pages#apprentissages_boosters_montessori'
+
+
+
+# ***********************************************************************
+# ***********************************************************************
+# ***********************************************************************
+
+
 
   # DEVELOPPEMENT
   get 'developpement-enfant' , to: 'pages#developpement_enfant'

@@ -4,7 +4,8 @@ class PagesController < ApplicationController
   :apprentissages_boosters_jeu, :apprentissages_boosters_environnement, :apprentissages_boosters_pedagogie, 
   :apprentissages_boosters_environnement_chambre, :apprentissages_boosters_neurosciences, 
   :apprentissages_boosters_neurosciences_4_piliers_apprentissage, :apprentissages_boosters_neurosciences_activites,
-  :apprentissages_boosters_singapour, :apprentissages_boosters_montessori, :apprentissages_boosters_environnement_maison]
+  :apprentissages_boosters_singapour, :apprentissages_boosters_montessori, :apprentissages_boosters_environnement_maison,
+  :apprentissages_puzzle]
 
   def home
   end
@@ -12,11 +13,26 @@ class PagesController < ApplicationController
   def homebis
   end
 
-  def apprentissages
-  end
+# *****************************************
+# *****************************************
+# *****************************************
+# *****************************************
+
+#APPRENTISSAGES
 
   def apprentissages
   end
+
+  #APPRENTISSAGES > PUZZLE
+
+        def apprentissages_puzzle
+        end
+
+# *****************************************
+# *****************************************
+# *****************************************
+# *****************************************
+
 
 
   def developpement_enfant
@@ -45,6 +61,12 @@ class PagesController < ApplicationController
 
   def dev_motricite
   end
+
+# *****************************************
+# *****************************************
+# *****************************************
+# *****************************************
+
 
 # BOOSTERS
 
