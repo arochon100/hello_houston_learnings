@@ -17,7 +17,7 @@ url(<%= asset_path 'AAA-Puzzle-banner.jpg' %>)">
     <div class="row">
         <div class="fil-ariane">
              <p>
-             <%= link_to "home", homebis_path, class: " link ariane", data: { turbolinks: false } %> > 
+             <%= link_to "home", homebis_path, class: " link ariane", id: "menu-start", data: { turbolinks: false } %> > 
              <%= link_to "apprentissages", apprentissages_path, class: " link ariane", data: { turbolinks: false } %> >
              <%= link_to "puzzle", apprentissages_puzzle_path, class: " link ariane", data: { turbolinks: false } %>
              </p>     
@@ -38,7 +38,7 @@ MENU
                         <div class="col-6 col-lg-4 ">
                             <a href="#ancre-1" class="box-link">
                                 <div class="box-AAA-jeu-menu">
-                                    <p id="menu-start">Intelligence</p>
+                                    <p >Intelligence</p>
                                 </div>
                             </a>
                         </div>
@@ -94,63 +94,27 @@ INTELLIGENCE
                             <p>Menu</p>
                     </div>
                 </a> 
-                <h2  style="margin-bottom: 15px">Intelligence logico-mathématique:</h2>
+                <h2  style="margin-bottom: 15px">Intelligence logico-mathématique :</h2>
                 <%# <p style="font-size:20px; padding-top: 20px; padding-bottom: 20px"><strong>Supers pouvoirs 
                 associés à cette intelligence:</strong></p> %>
                 <div class="container">
                     <div class="row" >   
+                        
                         <div class="col-12 col-lg-6 ">
                             <div class="box-AAA-jeu-intel ">
                                 <ul>
                                     <li>
-                                    Capacité à résoudre des problèmes de nature
-                                    logique ou abstraite
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6">
-                            <div class="box-AAA-jeu-intel ">
-                                <ul>
-                                    <li>
-                                    Analyser les causes et les conséquences d'un phénomène
-                                     et expliquer le pourquoi des choses
+                                    Capacité à catégoriser, ranger, ordonner
                                     </li>
                                 </ul>
                             </div>
                         </div>  
+
                         <div class="col-12 col-lg-6 ">
                             <div class="box-AAA-jeu-intel ">
                                 <ul>
                                     <li>
                                     S'organiser
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>  
-                        <div class="col-12 col-lg-6 ">
-                            <div class="box-AAA-jeu-intel ">
-                                <ul>
-                                    <li>
-                                    Prendre des bonnes décisions
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>  
-                        <div class="col-12 col-lg-6 ">
-                            <div class="box-AAA-jeu-intel ">
-                                <ul>
-                                    <li>
-                                    Anlayser
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>    
-                        <div class="col-12 col-lg-6 ">
-                            <div class="box-AAA-jeu-intel ">
-                                <ul>
-                                    <li>
-                                    Résoudre des problème que l'on rencontre
                                     </li>
                                 </ul>
                             </div>
@@ -180,12 +144,43 @@ INTELLIGENCE
                             <div class="box-AAA-jeu-intel ">
                                 <ul>
                                     <li>
-                                    Capacité à catégoriser, ranger, ordonner
+                                    Analyser
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>   
+
+                        <div class="col-12 col-lg-6">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Analyser les causes et les conséquences d'un phénomène
+                                     et expliquer le pourquoi des choses
                                     </li>
                                 </ul>
                             </div>
                         </div>  
 
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Capacité à résoudre des problèmes de nature
+                                    logique ou abstraite
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Résoudre des problème que l'on rencontre
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> 
 
 
 
@@ -227,35 +222,35 @@ MÉTHODE
                 </a> 
 
                <h2 >Méthode</h2>
-               <h3>Étape 1: Mesurer le cadre</h3>
-               <ul>
+               <h3>Étape 1 : Mesurer le cadre</h3>
+               <%# <ul>
                     <li>
                     yahoo
                     </li> 
-               </ul>
-               <h3>Étape 2: Disposer l'image du puzzle de sorte qu'elle 
+               </ul> %>
+               <h3>Étape 2 : Disposer l'image du puzzle de sorte qu'elle 
                soit visible tout au long de l'assemblage </h3>
-               <ul>
+               <%# <ul>
                     <li>
                     yahoo
                     </li> 
-               </ul>
-               <h3>Étape 2: Mettre de côté les pièces qui ont un bord droit</h3>
-               <ul>
+               </ul> %>
+               <h3>Étape 3 : Mettre de côté les pièces qui ont un bord droit</h3>
+               <%# <ul>
                     <li>
                     Mettre de côté les pièces qui ont un bord droit
                     </li> 
-               </ul>
-               <h3>Étape 3: Faire le cadre</h3>
+               </ul> %>
+               <h3>Étape 4 : Faire le cadre</h3>
                <ul>
                     <li>
-                    Faire le cadre
+                    Isoler les coins et construire le cadre.
                     </li> 
                </ul>     
-               <h3>Étape 4: Attaquer le reste du puzzle</h3>
+               <h3>Étape 5 : Attaquer le reste du puzzle</h3>
                <ul>
                     <li>
-                    Découper le puzzle en zones :
+                    Découper le puzzle en zones:
                         <ul>
                             <li>
                             Levier 1: par motif
@@ -265,29 +260,36 @@ MÉTHODE
                             </li>
                         </ul>
                     </li> 
+                    
+               </ul>   
+
+               <h3>Étape 6 : À la fin !</h3>
+               <ul>
                     <li>
-                    Sur la fin (quand il ne reste plus beaucoup de pièces) :
+                    Sur la fin, quand il ne reste plus beaucoup de pièces et que la fatigue 
+                    commence à se faire sentir:
                         <ul>
                             <li>
-                            Regroupe les pièces par formes, pièces mâles et femelles.
+                            Regrouper les pièces par formes, différentes pièces mâles et femelles.
                              Les pièces mâles sont incurvées vers l'extérieur alors que 
                              les pièces femelles sont incurvées vers l'intérieur. 
                             </li>
                             <li>
-                            Tu verras, tu finiras beaucoup plus vite ton puzzle !
+                            Vous verrez, votre enfant finira beaucoup plus vite son puzzle !
                             </li>
                         </ul>
                     </li>
-               </ul>   
-               <p></p>
+               </ul>  
+
                <h3>Astuces</h3>
                <ul>
                     <li>
-                    Ne pas bloquer. Passer à un autre motif, une autre couleur et revenir plus tard.
+                    Ne pas bloquer. Passer à un autre motif, une autre couleur et revenir
+                     plus tard pour débloquer la situation.
                     </li>
                     <li>
                     En cas de doute sur l'assemblage de 2 pièces, retourner les pièces 
-                    pour avoir un nouveau éclairage.
+                    pour avoir un nouvel éclairage.
                     </li>
                </ul>
             </div>
@@ -317,12 +319,13 @@ PROGRESSIVIÉ
                <h2 >Progressivité</h2>
                     <ul>
                         <li>
-                        Ne jamais oublié que cela doit être un jeu pour l'enfant ! 
-                        Si cela devenait une contrainte, il en serai dégouté. (cf. motivation)
+                        Ne jamais oublier que cela doit être un jeu pour l'enfant ! 
+                        Si le puzzle devenait une contrainte, il en serait dégouté. (cf. motivation)
                         </li>
                         <li>
                         Quand la méthode est bien maîtrisée et que l'enfant a des facilités
-                         avec des puzzles de moins de 100 pièces, vous pourrez augmenté progressivement le nombre de pièces.
+                        avec des puzzles de moins de 100 pièces, vous pourrez augmenter
+                        progressivement le nombre de pièces.
                         </li>
                     </ul>
             </div>
@@ -354,19 +357,19 @@ PÉDAGOGIE
                <h2 >Pédagogie</h2>
                <h3>L'environnement</h3>
                     <ul>
-                        <li>Créer un environnement détendu, amusant, bienveillant</li>
-                        <li>Accompagner l'enfant dans la gestion de ses émotions</li>
-                        <li>Offrer lui un environnement calme et ordonné pour booster sa concentration.</li>
+                        <li>Créer un environnement détendu, amusant, bienveillant.</li>
+                        <li>Accompagner l'enfant dans la gestion de ses émotions. (cf.gestion des émotions)</li>
+                        <li>Offrer lui un environnement calme et ordonné pour booster sa concentration. (cf.concentration)</li>
                             <ul>
                                 <li>Limiter les distractions (écrans, bruits, jouets)</li>
                             </ul>
                     </ul>
                <h3>Au départ, accompagner l'enfant jusqu'à la maîtrise de la méthode (les roulettes de vélo)</h3>
                     <ul>
-                        <li>Jouer en équipe ! Construire le puzzle à 4 mains permetrra de:</li>
+                        <li>Jouer en équipe ! Construire le puzzle à 4 mains permettra de :</li>
                             <ul>
-                                <li>passer un moment avec un de ses parents. C'est toujours magique pour l'enfant.</li>
-                                <li>transmettre et consolider la méthode (processus, stratégie, astuces)</li>
+                                <li>Passer un moment avec un de ses parents. C'est toujours magique pour l'enfant.</li>
+                                <li>Transmettre et consolider la méthode (processus, stratégie, astuces)</li>
                             </ul>
                     </ul>
             </div>
@@ -412,7 +415,7 @@ MOTIVATION
                         </ul>
                     <li>Une expérience magique !</li>
                         <ul>
-                            <li>Faire avec un puzzle avec un de ses parents est un moment unique, inoubliable,
+                            <li>Faire un puzzle avec un de ses parents est un moment unique, inoubliable,
                              tout simplement magique pour l'enfant.</li>
                         </ul>
                 </ul>
