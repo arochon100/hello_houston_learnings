@@ -19,8 +19,8 @@
 
 <div class="container" style="margin-bottom:10px">
     <div class="row">
-        <div class="col-12" style="margin-top:20px">
-            <h1 style="text-align: center"><strong>LES "BOOSTERS" DE L'APPRENTISSAGE</strong></h1>
+        <div class="col-12 title-boosters-general" style="margin-top:20px">
+            <h1 style="text-align: center; max-width:900px"><strong>LES "BOOSTERS" DE L'APPRENTISSAGE POUR LES 2 À 6 ANS</strong></h1>
         </div>
     </div>
 </div>
@@ -42,13 +42,42 @@
         <div class="row">
 
             <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url(<%= asset_path 'BBB_space_x.jpg' %>)" >
-                        <p>Jeu</p>
+                    url(<%= asset_path 'BBB_last.jpg' %>)" >
+                        <p>L'exemplarité</p>
+                        <p>(Mimer / Copier)</p>
                     </div>
                 <% end %>
             </div>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_space_x.jpg' %>)" >
+                        <p>L'excellence amoureuse</p>
+                    </div>
+                <% end %>
+            </div>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_space_x.jpg' %>)" >
+                        <p>L'excellence amusante</p>
+                    </div>
+                <% end %>
+            </div>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_last.jpg' %>)" >
+                        <p>L'utilité</p>
+                    </div>
+                <% end %>
+            </div>
+
             <div class="col-md-12 col-lg-4">
                 <%= link_to apprentissages_boosters_environnement_montessori_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
@@ -82,7 +111,7 @@
                 <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
                     url(<%= asset_path 'BBB_last.jpg' %>)" >
-                        <p>Mimer / Copier</p>
+                        <p>Mettre des roulettes aux apprentissages</p>
                     </div>
                 <% end %>
             </div>
@@ -91,7 +120,7 @@
                 <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
                     url(<%= asset_path 'BBB_last.jpg' %>)" >
-                        <p>Ne pas rebuter</p>
+                        <p>Ne pas rebuter !</p>
                     </div>
                 <% end %>
             </div>
