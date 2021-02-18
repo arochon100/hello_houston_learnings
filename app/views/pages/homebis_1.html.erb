@@ -1,0 +1,56 @@
+<%# TITLE %>
+<% @title="Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+<%# BANNER %>
+<div class="banner-home" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'banner_tree_2.jpg' %>)">
+    <div class="container">
+        <h1>HELLO HOUSTON LEARNINGS</h1> 
+        <h3>L'apprentissage par le jeu pour les 2 à 6 ans</h3>
+        <h3>Trouver un apprentissage pour votre enfant !</h3>
+        <p>Tous les apprentissages proposés s'appuient sur les principes des neurosciences, de la méthode de Singapour et de la pédagogie Montessori.</p>
+        <h2 style="margin-bottom:0px">DATE DE LANCEMENT : FÉVRIER 2021</h2> 
+    </div>  
+</div>
+
+
+<%# ACTIVITIES %>
+<div class="container activities">
+    <img src="<%= asset_path 'activities.png' %>" class="img-fluid" alt="">
+</div>
+
+<%# BLOCKS %>
+<div class="container">
+        <div class="row">
+            
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'box_lego600x360.jpg' %>)" >
+                        <p>Apprentissages par le jeu</p>
+                    </div>
+                <% end %>
+            </div>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to developpement_enfant_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'développement.jpg' %>)" >
+                    <p>Développement de l'enfant</p>
+                </div>
+                <% end %>
+            </div>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_boosters_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'Boosters.jpg' %>)">
+                        <p>Boosters de l'apprentissage</p>
+                    </div>
+                <% end %>    
+            </div>
+            
+        </div>
+    </div>

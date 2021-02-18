@@ -14,6 +14,9 @@ class PagesController < ApplicationController
   def homebis
   end
 
+  def homebis_1
+  end
+
 # *****************************************
 # *****************************************
 # *****************************************
