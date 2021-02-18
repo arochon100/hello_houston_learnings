@@ -1,0 +1,40 @@
+.img-chambre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-chambre {
+    margin-bottom:10px;
+   
+}
+
+.img-nature {
+    // border: 4px solid #ccecfa;
+    // border-radius: 30px;
+}
+
+.nature-sous-rubrique {
+    background-color: #ccecfa;
+    border-radius:5px;
+}
+
+.nature-sous-rubrique h3 {
+    color: #224358 !important;
+    text-align: center;
+    margin:0px; 
+    padding: 5px;
+}
+
+.container-sous-rubrique {
+    padding: 0px !important;
+    margin-bottom: 10px;
+}
+
+.col-12-sous-rubrique {
+    padding: 0px !important;
+}
+
+.cont-img-salon {
+    margin-top: 20px;
+}

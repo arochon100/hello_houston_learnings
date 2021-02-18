@@ -5,7 +5,8 @@ class PagesController < ApplicationController
   :apprentissages_boosters_environnement_chambre, :apprentissages_boosters_neurosciences, 
   :apprentissages_boosters_neurosciences_4_piliers_apprentissage, :apprentissages_boosters_neurosciences_activites,
   :apprentissages_boosters_singapour, :apprentissages_boosters_montessori, :apprentissages_boosters_environnement_maison,
-  :apprentissages_puzzle]
+  :apprentissages_puzzle, :apprentissages_nature, :apprentissages_temps, :apprentissages_math, :apprentissages_cuisiner,
+   :apprentissages_musique, :apprentissages_lecture]
 
   def home
   end
@@ -23,10 +24,42 @@ class PagesController < ApplicationController
   def apprentissages
   end
 
-  #APPRENTISSAGES > PUZZLE
+        #APPRENTISSAGES > PUZZLE
 
         def apprentissages_puzzle
         end
+
+        #APPRENTISSAGES > NATURE
+
+        def apprentissages_nature
+        end
+   
+
+        #APPRENTISSAGES > TEMPS
+
+        def apprentissages_temps
+        end
+
+        #APPRENTISSAGES > MATH
+
+        def apprentissages_math
+        end
+
+        #APPRENTISSAGES > CUISINER
+
+        def apprentissages_cuisiner
+        end
+
+        #APPRENTISSAGES > MUSIQUE
+
+        def apprentissages_musique
+        end
+
+        #APPRENTISSAGES > LECTURE
+
+        def apprentissages_lecture
+        end
+
 
 # *****************************************
 # *****************************************

@@ -1,0 +1,26 @@
+<% @title="Apprentissage math - enfant de 2 à 6 ans | Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+<%# BANNER %>
+<div class="banner-puzzle" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
+url(<%= asset_path 'banner-singapour.jfif' %>)">
+    <div class="container">
+        <h1 style="margin-bottom:0px">MATH</h1> 
+    </div>  
+</div>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p>
+             <%= link_to "home", homebis_path, class: " link ariane", id: "menu-start", data: { turbolinks: false } %> > 
+             <%= link_to "apprentissages", apprentissages_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "math", apprentissages_math_path, class: " link ariane", data: { turbolinks: false } %>
+             </p>     
+        </div>
+    </div>
+</div>

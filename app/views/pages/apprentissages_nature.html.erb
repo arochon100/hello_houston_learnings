@@ -1,0 +1,222 @@
+<% @title="Apprentissage nature - enfant 2 à 6 ans | Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+<%# BANNER %>
+<div class="banner-puzzle" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
+url(<%= asset_path 'AAA-nature-banner.jpg' %>)">
+    <div class="container">
+        <h1 style="margin-bottom:0px">NATURE</h1> 
+    </div>  
+</div>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p>
+             <%= link_to "home", homebis_path, class: " link ariane", id: "menu-start", data: { turbolinks: false } %> > 
+             <%= link_to "apprentissages", apprentissages_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "nature", apprentissages_nature_path, class: " link ariane", data: { turbolinks: false } %>
+             </p>     
+        </div>
+    </div>
+</div>
+
+
+
+<%# **************************************
+MENU
+************************************** %>
+
+<div class="container box-container-AAA-jeu">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-AAA-menu-general">
+                <div class="container">
+                    <div class="row" >   
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-1" class="box-link">
+                                <div class="box-AAA-menu-general-inside">
+                                    <p >Maison</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-1" class="box-link">
+                                <div class="box-AAA-menu-general-inside">
+                                    <p >Jardin</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <a href="#ancre-2" class="box-link">
+                                <div class="box-AAA-menu-general-inside">
+                                    <p>Extérieur</p>
+                                </div>
+                            </a>
+                        </div>  
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-3" class="box-link">
+                                <div class="box-AAA-menu-general-inside">
+                                    <p>Pédagogies</p>
+                                </div>
+                            </a>
+                        </div>   
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-3" class="box-link">
+                                <div class="box-AAA-menu-general-inside">
+                                        <p>Ressources</p>
+                                </div>
+                            </a>
+                        </div>            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%# **************************************
+APPRTEMENT - MAISON
+************************************** %>
+
+<div class="container box-container-AAA-jeu-nature" style="margin-top: 30px">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-AAA-menu ">
+                <div class="button-ancre">
+                        <p id="ancre-1">M</p>
+                </div>
+                <a href="#menu-start" class="box-link">  
+                    <div class="button-menu">
+                            <p>Menu</p>
+                    </div>
+                </a> 
+                <h2  style="margin-bottom: 15px">Appartement - Maison</h2>
+                <%# <p style="font-size:20px; padding-top: 20px; padding-bottom: 20px"><strong>Supers pouvoirs 
+                associés à cette intelligence:</strong></p> %>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3>Chambre de l'enfant</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                                <div class="container cont-chambre">
+                                    <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 img-chambre" >
+                                            <%= image_tag("AAA-nature-maison-chambre-1.png", class: "img-fluid img-motricite img-nature") %>
+                                        </div>
+                                        <div class="col-1"></div>
+                                    </div>
+                                </div>
+                            <ul>
+                                <li>
+                                Créer un environnement où la nature est sublimée (sens de la vue)
+                                </li>
+                                        <ul>
+                                            <li>Des photos de jeunes animaux avec leur parents</li>
+                                            <li>Des photos de magnifiques paysages</li>
+                                            <li>...</li>
+                                        </ul>
+                                <br>
+                                <li>
+                                Créer un environnement où l'on peut jouer avec la nature (sens = vue + touché)
+                                </li>
+                                    <ul>
+                                        <li>Des figurines d'animaux</li>
+                                    </ul>
+                                <br>
+                                <li>
+                                Créer un environnement où l'on peut sentir la nature (sens de l'odorat)
+                                </li>
+                                    <ul>
+                                        <li>Le jeu des odeurs</li>
+                                    </ul>
+                            </ul>
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3>Salon</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                                <div class="container cont-chambre cont-img-salon">
+                                    <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 img-chambre" >
+                                            <%= image_tag("AAA-nature-maison-salon.png", class: "img-fluid img-motricite img-nature") %>
+                                        </div>
+                                        <div class="col-1"></div>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li>
+                                    Présence de plantes
+                                    </li>
+                                    <li>
+                                    Table des saisons (Pédagogie Steiner-Waldorf) ou Table d'observation (Pédagogie Montessori)
+                                    </li>
+                                </ul>
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3>Dessins animés</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container cont-chambre cont-img-salon">
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-10 img-chambre" >
+                                        <%= image_tag("AAA-Nature-Yakari.jpg", class: "img-fluid img-motricite img-nature") %>
+                                    </div>
+                                    <div class="col-1"></div>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                Yakari est un exemple de dessin animé qui sublime la nature.
+                                </li>
+                            </ul>
+
+
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3>Reportages animaliers</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container cont-chambre cont-img-salon">
+                                    <div class="row">
+                                        <div class="col-1"></div>
+                                        <div class="col-10 img-chambre" >
+                                            <%= image_tag("AAA-nature-maison-reportage-animalier.png", class: "img-fluid img-motricite img-nature") %>
+                                        </div>
+                                        <div class="col-1"></div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>

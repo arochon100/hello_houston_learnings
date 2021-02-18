@@ -15,6 +15,20 @@ Rails.application.routes.draw do
   get 'apprentissages' , to: 'pages#apprentissages'
         # APPRENTISSAGES > puzzle
         get 'apprentissages-puzzle' , to: 'pages#apprentissages_puzzle'
+        # APPRENTISSAGES > nature
+        get 'apprentissages-nature' , to: 'pages#apprentissages_nature'
+        # APPRENTISSAGES > temps
+        get 'apprentissages-temps' , to: 'pages#apprentissages_temps'
+        # APPRENTISSAGES > math
+        get 'apprentissages-math' , to: 'pages#apprentissages_math'
+        # APPRENTISSAGES > cusiner
+        get 'apprentissages-cuisiner' , to: 'pages#apprentissages_cuisiner'
+        # APPRENTISSAGES > musique
+        get 'apprentissages-musique' , to: 'pages#apprentissages_musique'
+        # APPRENTISSAGES > lecture
+        get 'apprentissages-lecture' , to: 'pages#apprentissages_lecture'
+
+
 
 
 

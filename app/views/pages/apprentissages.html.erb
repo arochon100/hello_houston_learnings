@@ -28,7 +28,9 @@
 
 <%# BLOCKS %>
 <div class="container">
-        
+
+<%# INTELLIGENCES   ********************************************* %>
+
         <div class="row">
             <div class="col-md-12 col-lg-4">
                 <div class="box-learnings" style="background-image: 
@@ -36,53 +38,98 @@
                     <p>8 intelligences</p>
                 </div>
             </div>
+
+<%# SPORTS   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
                 <div class="box-learnings" style="background-image: 
                 linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_sports.jpg' %>)" >
                     <p>Sports</p>
                 </div>
             </div>
+
+<%# MUSIQUE   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_music.jpg' %>)" >
-                    <p>Music</p>
-                </div>
+                <%= link_to apprentissages_musique_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_music.jpg' %>)">
+                        <p>Musique</p>
+                    </div>
+                <% end %>
             </div>
+
+            
+
+<%# CUISINER   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_cooking.jpg' %>)">
-                    <p>Cooking</p>
-                </div>
+                <%= link_to apprentissages_cuisiner_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_cooking.jpg' %>)">
+                        <p>Cuisiner</p>
+                    </div>
+                <% end %>
             </div>
+
+            
+
+<%# NATURE   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_nature.jpg' %>)">
-                    <p>Nature</p>
-                </div>
+                <%= link_to apprentissages_nature_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_nature.jpg' %>)">
+                        <p>Nature</p>
+                    </div>
+                <% end %>
             </div>
+  
+
+<%# ROBOTICS   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
                 <div class="box-learnings" style="background-image: 
                 linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_robotics.jpg' %>)">
                     <p>Robotics</p>
                 </div>
             </div>
+
+<%# MATH   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_math.jpg' %>)">
-                    <p>Math</p>
-                </div>
+                <%= link_to apprentissages_math_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_math.jpg' %>)">
+                        <p>Math</p>
+                    </div>
+                <% end %>
             </div>
+
+<%# LECTURE   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_reading.jpg' %>)">
-                    <p>Reading</p>
-                </div>
+                <%= link_to apprentissages_lecture_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_reading.jpg' %>)">
+                        <p>Lecture</p>
+                    </div>
+                <% end %>
             </div>
+
+
+            
+
+<%# DISOVERING THE WORLD   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
                 <div class="box-learnings" style="background-image: 
                 linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_world.jpg' %>)">
                     <p>Discovering the world</p>
                 </div>
+
+<%# RIGHT / LEFT   ********************************************* %>
+
             </div>
             <div class="col-md-12 col-lg-4">
                 <div class="box-learnings" style="background-image: 
@@ -90,18 +137,29 @@
                     <p>Right / Left</p>
                 </div>
             </div>
+
+<%# TEMPS   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_time.jpg' %>)">
-                    <p>Time</p>
-                </div>
-            </div>
+                <%= link_to apprentissages_temps_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_time.jpg' %>)">
+                        <p>Temps</p>
+                    </div>
+                <% end %>
+            </div>  
+
+<%# TIDYING UP   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
                 <div class="box-learnings" style="background-image: 
                 linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_tidy_up.jpg' %>)">
                     <p>Tidying up</p>
                 </div>
             </div>
+
+<%# CODING   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
                 <div class="box-learnings" style="background-image: 
                 linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_coding.jpg' %>)">
@@ -120,6 +178,9 @@
                     <p>Drawing</p>
                 </div>
             </div>
+
+<%# PUZZLE   ********************************************* %>
+
             <div class="col-md-12 col-lg-4">
                 <%= link_to apprentissages_puzzle_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-learnings" style="background-image: 
