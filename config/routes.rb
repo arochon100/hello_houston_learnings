@@ -4,7 +4,11 @@ Rails.application.routes.draw do
   
   # HOME
   get 'homebis' , to: 'pages#homebis'
+  get 'homebis-1' , to: 'pages#homebis_1'
 
+
+
+  
 
 # ***********************************************************************
 # ***********************************************************************

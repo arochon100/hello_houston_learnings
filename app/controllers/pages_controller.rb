@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   :apprentissages_boosters_neurosciences_4_piliers_apprentissage, :apprentissages_boosters_neurosciences_activites,
   :apprentissages_boosters_singapour, :apprentissages_boosters_montessori, :apprentissages_boosters_environnement_maison,
   :apprentissages_puzzle, :apprentissages_nature, :apprentissages_temps, :apprentissages_math, :apprentissages_cuisiner,
-   :apprentissages_musique, :apprentissages_lecture]
+   :apprentissages_musique, :apprentissages_lecture, :homebis_1]
 
   def home
   end
