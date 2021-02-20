@@ -19,7 +19,7 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
              <p>
              <%= link_to "home", homebis_path, class: " link ariane", id: "menu-start", data: { turbolinks: false } %> > 
              <%= link_to "apprentissages", apprentissages_path, class: " link ariane", data: { turbolinks: false } %> >
-             <%= link_to "math", apprentissages_math_path, class: " link ariane", data: { turbolinks: false } %>
+             <%= link_to "mathématiques", apprentissages_math_path, class: " link ariane", data: { turbolinks: false } %>
              </p>     
         </div>
     </div>
@@ -34,31 +34,39 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
                     <div class="row" >   
                         <div class="col-6 col-lg-4 ">
                             <a href="#ancre-1" class="box-link">
-                                <div class="box-AAA-menu-general-inside" ">
+                                <div class="box-AAA-menu-general-inside-math" ">
                                     <p >À partir de 3 ans</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-6 col-lg-4 ">
                             <a href="#ancre-2" class="box-link">
-                                <div class="box-AAA-menu-general-inside" >
+                                <div class="box-AAA-menu-general-inside-math" >
                                     <p >À partir de 4 ans</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-6 col-lg-4">
                             <a href="#ancre-3" class="box-link">
-                                <div class="box-AAA-menu-general-inside" >
+                                <div class="box-AAA-menu-general-inside-math" >
                                     <p>À partir de 5 ans</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-6 col-lg-4 ">
                             <a href="#ancre-4" class="box-link">
-                                <div class="box-AAA-menu-general-inside" >
+                                <div class="box-AAA-menu-general-inside-math" >
                                     <p>À partir de 6 ans</p>
                                 </div>
                             </a>
+                        </div>   
+                        <div class="col-6 col-lg-4 ">
+                                <%= link_to apprentissages_boosters_methode_de_singapour_path, class: "box-link",target: "_blank", 
+                                data: { turbolinks: false } , :action => 'go' do %>
+                                    <div class="box-AAA-menu-general-inside-math" style="background-color:#0596de !important">
+                                        <p>La méthode de Singapour</p>
+                                    </div>
+                                <% end %>
                         </div>               
                     </div>
                 </div>
@@ -66,6 +74,12 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
         </div>
     </div>
 </div>
+
+
+
+<%# *************************************************** %>
+<%# À PARTIR DE 3 ANS %>
+<%# *************************************************** %>
 
 
 <div class="container " style="margin-top: 30px">
@@ -137,11 +151,11 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
                     </div>
                         <ul style="margin-top:20px">
                             <li>
-                            La création de couleur par mélange et l'outil idéal pour présenter
-                            les signes "+" et "=" à votre enfant.
+                            La création de couleurs par mélange et l'outil idéal pour introduire
+                            les signes "<strong>+</strong>" et "<strong>=</strong>" à votre enfant.
                             </li>
                             <li>
-                            Lors de ses ateliers peintures, votre enfant pourra s'y référer pour créer des couleurs. 
+                            Lors de ses ateliers peintures, votre enfant pourra se référer au tableau des mélanges pour créer des couleurs. 
                             Succès garanti !
                             </li>
                         </ul>
@@ -176,7 +190,7 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
                             <li>
                             Au début, vous direz à votre enfant de classer ses peluches de la plus petite
                              à la plus grande et vice versa.
-                            Dans un deuxième temps il apprendra le classement par ordre croissant et décroissant.
+                            Dans un deuxième temps, il apprendra le classement par ordre croissant et décroissant.
                             </li>
                         </ul>
 
@@ -218,6 +232,294 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
 
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%# *************************************************** %>
+<%# À PARTIR DE 4 ANS %>
+<%# *************************************************** %>
+
+<div class="container " style="margin-top: 30px">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-AAA-menu ">
+                <div class="button-ancre">
+                        <p id="ancre-2">M</p>
+                </div>
+                <a href="#menu-start" class="box-link">  
+                    <div class="button-menu">
+                            <p>Menu</p>
+                    </div>
+                </a> 
+                <h2  style="margin-bottom: 15px">À partir de 4 ans</h2>
+                <div class="container cont-chambre cont-img-salon">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3 style="text-align:left">Compter</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-1"></div>
+                        <div class="col-10 img-chambre" >
+                            <%= image_tag("AAA-math-4ans-compter.jpg", class: "img-fluid img-motricite img-nature") %>
+                        </div>
+                        <div class="col-1"></div>
+
+                    </div>
+
+                        <li style="margin-top:10px"> <strong>Matériel Montessori</strong></li>
+                            <ul>
+                                <li>Chiffres rugueux associés à des images</li>
+                                <li>Chiifres associés à des jetons, dés, cartes à points...</li>
+                            </ul>
+                        <li style="margin-bottom:10px"> <strong>Le boulier</strong></li>
+                            
+                    
+                    
+
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3 style="text-align:left">Décomposer, recomposer le nombre 10</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-1"></div>
+                        <div class="col-10 img-chambre" >
+                            <%= image_tag("AAA-math-4ans-décomposer-recomposer.jpg", class: "img-fluid img-motricite img-nature") %>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
+                        <ul style="margin-top:20px">
+                            <li>
+                            La création de couleurs par mélange et l'outil idéal pour introduire
+                            les signes "<strong>+</strong>" et "<strong>=</strong>" à votre enfant.
+                            </li>
+                            <li>
+                            Lors de ses ateliers peintures, votre enfant pourra se référer au tableau des mélanges pour créer des couleurs. 
+                            Succès garanti !
+                            </li>
+                        </ul>
+
+
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3 style="text-align:left">La méthode de Singapour !</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-1"></div>
+                        <div class="col-10 img-chambre" >
+                            <%= image_tag("AAA-math-4ans-methode-de-singapour.jpg", class: "img-fluid img-motricite img-nature") %>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
+
+                    <ul style="margin-top:20px">
+                        <li>
+                        La méthode de Singapour est l'état de l'art de l'enseignement des mathématiques dans le monde.
+                        </li>
+                    </ul>
+                    <div style="display:flex; justify-content:center; align-items:center">
+                        <%= link_to "En savoir plus sur la méthode de Singapour", apprentissages_boosters_methode_de_singapour_path,
+                         target: "_blank", class: " btn btn-hello", data: { turbolinks: false } %> 
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<%# *************************************************** %>
+<%# À PARTIR DE 5 ANS %>
+<%# *************************************************** %>
+
+<div class="container " style="margin-top: 30px">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-AAA-menu ">
+                <div class="button-ancre">
+                        <p id="ancre-3">M</p>
+                </div>
+                <a href="#menu-start" class="box-link">  
+                    <div class="button-menu">
+                            <p>Menu</p>
+                    </div>
+                </a> 
+                <h2  style="margin-bottom: 15px">À partir de 5 ans</h2>
+                <div class="container cont-chambre cont-img-salon">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3 style="text-align:left">La méthode de Singapour !</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-1"></div>
+                        <div class="col-10 img-chambre" >
+                            <%= image_tag("AAA-math-5ans-singapour.jpg", class: "img-fluid img-motricite img-nature") %>
+                        </div>
+                        <div class="col-1"></div>
+
+                    </div>
+
+                        <ul style="margin-top:20px">
+                        <li>
+                        La méthode de Singapour est l'état de l'art de l'enseignement des mathématiques dans le monde.
+                        </li>
+                    </ul>
+                    <div style="display:flex; justify-content:center; align-items:center">
+                        <%= link_to "En savoir plus sur la méthode de Singapour", apprentissages_boosters_methode_de_singapour_path,
+                         target: "_blank", class: " btn btn-hello", data: { turbolinks: false } %> 
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<%# *************************************************** %>
+<%# À PARTIR DE 6 ANS %>
+<%# *************************************************** %>
+
+
+
+
+<div class="container " style="margin-top: 30px">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-AAA-menu ">
+
+                <%# Ancre %>
+                <div class="button-ancre">
+                        <p id="ancre-4">M</p>
+                </div>
+                <%# menu %>
+                <a href="#menu-start" class="box-link">  
+                    <div class="button-menu">
+                            <p>Menu</p>
+                    </div>
+                </a> 
+
+                <h2  style="margin-bottom: 15px">À partir de 6 ans</h2>
+                
+                <div class="container cont-chambre cont-img-salon">
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3 style="text-align:left">"Mathodor", pour devenir un as en calcul mental !</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-1"></div>
+                        <div class="col-10 img-chambre" >
+                            <%= image_tag("AAA-math-6-ans-calcul-mental.jpg", class: "img-fluid img-motricite img-nature") %>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
+                </div>
+                 
+
+                <ul style="margin-top:20px">
+                    <li>
+                    "Mathador", le jeu qui fait aimé le calcul mental aux enfants.
+                    </li>
+                    <li>
+                    Le jeu fonctionne sur le principe du "compte est bon". Du calcul mental à l'envers, qui repose sur un
+                    triptyque aujourd'hui en vogue : manipuler, verbaliser et abstraire.
+                    </li>
+                    <li>
+                    <strong>Numéro 1 en maths avec Mathador CP - Éditions Larousse</strong>
+                    </li>
+                </ul>
+
+                <div style="display:flex; justify-content:center; align-items:center; margin-bottom:30px">
+                    <%= link_to "En savoir plus sur mathador", "https://www.mathador.fr/",
+                        target: "_blank", class: " btn btn-hello", data: { turbolinks: false } %> 
+                </div>
+
+
+            <div class="container cont-chambre cont-img-salon">
+                <div class="row">
+                    <div class="col-12">
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique">
+                                            <h3 style="text-align:left">La méthode de Singapour !</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-1"></div>
+                        <div class="col-10 img-chambre" >
+                            <%= image_tag("AAA-math-6-ans-methode-de-singapour.jpg", class: "img-fluid img-motricite img-nature") %>
+                        </div>
+                        <div class="col-1"></div>
+                </div>
+            </div>
+
+                    <ul style="margin-top:20px">
+                        <li>
+                        La méthode de Singapour est l'état de l'art de l'enseignement des mathématiques dans le monde.
+                        </li>
+                        
+                    </ul>
+
+                    <div style="display:flex; justify-content:center; align-items:center; margin-bottom:30px">
+                        <%= link_to "En savoir plus sur la méthode de Singapour", apprentissages_boosters_methode_de_singapour_path,
+                         target: "_blank", class: " btn btn-hello", data: { turbolinks: false } %> 
+                    </div>
+
+                </div>    
             </div>
         </div>
     </div>

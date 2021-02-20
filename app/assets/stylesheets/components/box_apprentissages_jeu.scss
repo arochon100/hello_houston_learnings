@@ -138,6 +138,50 @@
             }
             } 
 
+           
+
+
+            
+             .box-AAA-menu-general-inside-math {
+                background-color: #11689e;
+                background-size: cover;
+                background-position: center;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #224358;
+                font-weight: bold;
+                // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+                border-radius: 5px;
+                // box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                // margin-right: 15px;
+                // margin-left: 15px;
+                margin-bottom: 10px;
+            }
+
+            @media screen and (min-width: 992px) {
+            .box-AAA-menu-general-inside-math  {
+                height: 40px;
+            }
+            } 
+
+
+            .box-AAA-menu-general-inside-math  p {
+                margin-bottom: 0px;
+                color: white;
+                font-size: 12px;
+                text-align: center;
+                padding: 5px;
+            }
+
+
+            @media screen and (min-width: 992px) {
+            .box-AAA-menu-general-inside-math  p{
+                font-size: 18px;
+                padding: 0 10px;
+            }
+            } 
 
 // BOX > BORDURE > BOUTON "MENU"
             // • apprentissages > jeu

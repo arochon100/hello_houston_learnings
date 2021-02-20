@@ -39,41 +39,6 @@
                 </div>
             </div>
 
-<%# SPORTS   ********************************************* %>
-
-            <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_sports.jpg' %>)" >
-                    <p>Sports</p>
-                </div>
-            </div>
-
-<%# MUSIQUE   ********************************************* %>
-
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_musique_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-learnings" style="background-image: 
-                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_music.jpg' %>)">
-                        <p>Musique</p>
-                    </div>
-                <% end %>
-            </div>
-
-            
-
-<%# CUISINER   ********************************************* %>
-
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_cuisiner_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-learnings" style="background-image: 
-                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_cooking.jpg' %>)">
-                        <p>Cuisiner</p>
-                    </div>
-                <% end %>
-            </div>
-
-            
-
 <%# NATURE   ********************************************* %>
 
             <div class="col-md-12 col-lg-4">
@@ -85,15 +50,16 @@
                 <% end %>
             </div>
   
-
-<%# ROBOTICS   ********************************************* %>
+<%# TEMPS   ********************************************* %>
 
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_robotics.jpg' %>)">
-                    <p>Robotics</p>
-                </div>
-            </div>
+                <%= link_to apprentissages_temps_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_time.jpg' %>)">
+                        <p>Temps</p>
+                    </div>
+                <% end %>
+            </div>  
 
 <%# MATH   ********************************************* %>
 
@@ -117,6 +83,69 @@
                 <% end %>
             </div>
 
+<%# MUSIQUE   ********************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_musique_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_music.jpg' %>)">
+                        <p>Musique</p>
+                    </div>
+                <% end %>
+            </div>
+
+
+<%# CUISINER   ********************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_cuisiner_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_cooking.jpg' %>)">
+                        <p>Cuisiner</p>
+                    </div>
+                <% end %>
+            </div>
+
+<%# CALCUL MENTAL  ********************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_emotions.jpg' %>)">
+                    <p>Calcul mental</p>
+                </div>
+            </div>
+
+<%# SPORTS   ********************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_sports.jpg' %>)" >
+                    <p>Sports</p>
+                </div>
+            </div>
+
+
+            
+
+
+
+            
+
+
+
+<%# ROBOTICS   ********************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <div class="box-learnings" style="background-image: 
+                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_robotics.jpg' %>)">
+                    <p>Robotics</p>
+                </div>
+            </div>
+
+
+
+
+
 
             
 
@@ -138,16 +167,7 @@
                 </div>
             </div>
 
-<%# TEMPS   ********************************************* %>
 
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_temps_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-learnings" style="background-image: 
-                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_time.jpg' %>)">
-                        <p>Temps</p>
-                    </div>
-                <% end %>
-            </div>  
 
 <%# TIDYING UP   ********************************************* %>
 
@@ -267,6 +287,8 @@
                     <p>Méditation en pleine conscience</p>
                 </div>
             </div>
+
+            
 
             <%# HUIT INTELLIGENCES %>
            
