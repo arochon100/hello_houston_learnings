@@ -31,6 +31,8 @@ Rails.application.routes.draw do
         get 'apprentissages-musique' , to: 'pages#apprentissages_musique'
         # APPRENTISSAGES > lecture
         get 'apprentissages-lecture' , to: 'pages#apprentissages_lecture'
+        # APPRENTISSAGES > les 8 intelligences
+        get 'apprentissages-les-8-intelligences-Howard-Gardner' , to: 'pages#apprentissages_huit_intelligences'
 
 
 

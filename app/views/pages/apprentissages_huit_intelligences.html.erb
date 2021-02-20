@@ -1,0 +1,414 @@
+<% @title="Apprentissage math - enfant de 2 à 6 ans | Hello Houston Learnings" %>
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+<%# BANNER %>
+<div class="banner-puzzle" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
+url(<%= asset_path 'banner-singapour.jfif' %>)">
+    <div class="container">
+        <h1 style="margin-bottom:0px">Les 8 intelligences</h1> 
+        <h2>(Howard Gardner)</h2>
+    </div>  
+</div>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p>
+             <%= link_to "home", homebis_path, class: " link ariane", id: "menu-start", data: { turbolinks: false } %> > 
+             <%= link_to "apprentissages", apprentissages_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "mathématiques", apprentissages_math_path, class: " link ariane", data: { turbolinks: false } %>
+             </p>     
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<%# **************************************
+MENU
+************************************** %>
+
+<div class="container box-container-AAA-jeu">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-AAA-menu-general">
+                <div class="container">
+                    <div class="row" >  
+                        <h2>Les 8 intelligences</h2> 
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-1" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math ">
+                                    <p >Verbale-linguistique</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-lg-4">
+                            <a href="#ancre-2" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math ">
+                                    <p>Logico-mathématique</p>
+                                </div>
+                            </a>
+                        </div>  
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-3" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math ">
+                                        <p>Visuelle-spaciale</p>
+                                </div>
+                            </a>
+                        </div>  
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-4" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math ">
+                                        <p>Intrapersonnelle</p>
+                                </div>
+                            </a>
+                        </div>  
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-5" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math ">
+                                    <p>Interpersonnelle</p>
+                                </div>
+                            </a>
+                        </div> 
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-5" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math ">
+                                    <p>Corporelle-kinesthésique</p>
+                                </div>
+                            </a>
+                        </div>   
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-5" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math ">
+                                    <p>Musicale</p>
+                                </div>
+                            </a>
+                        </div>    
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-5" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math ">
+                                    <p>Naturaliste</p>
+                                </div>
+                            </a>
+                        </div>               
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<%# **************************************
+INTRODUCTION => HOWARD GARDNER
+************************************** %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-border-title-blue">
+                <h2>Introduction - Howard Gardner</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<%# **************************************
+LES 2 FORMES D'INTELLIGENCE LES + DÉVELOPPÉS PAR L'ÉCOLE
+************************************** %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-border-title-blue">
+                <h2>Les 2 formes d'intelligence les plusdéveloppées par l'école</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%# **************************************
+INTELLIGENCE LOGICO-MATHEMATIQUE
+************************************** %>
+
+<div class="container box-container-AAA-jeu" style="margin-top: 30px">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-AAA-menu">
+                <div class="button-ancre">
+                        <p id="ancre-1">Menu</p>
+                </div>
+                <a href="#menu-start" class="box-link">  
+                    <div class="button-menu">
+                            <p>Menu</p>
+                    </div>
+                </a> 
+                <h2  style="margin-bottom: 15px">Intelligence logico-mathématique :</h2>
+                <%# <p style="font-size:20px; padding-top: 20px; padding-bottom: 20px"><strong>Supers pouvoirs 
+                associés à cette intelligence:</strong></p> %>
+                
+                <div class="col-12">
+                            <div class="container container-sous-rubrique"> 
+                                <div class="row">
+                                    <div class="col-12 col-12-sous-rubrique">
+                                        <div class="nature-sous-rubrique" style="background-color:#11689e">
+                                            <h3 style="text-align:left; color:white !important">Compter jusqu'à 10 !</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+
+                <div class="container">
+                    <div class="row" >   
+                        
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-border-title-blue">
+                                <ul>
+                                    <li>
+                                    Capacité à catégoriser, ranger, ordonner
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    S'organiser
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Capacité à mesurer
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Capacité à calculer
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Analyser
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>   
+
+                        <div class="col-12 col-lg-6">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Analyser les causes et les conséquences d'un phénomène
+                                     et expliquer le pourquoi des choses
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Capacité à résoudre des problèmes de nature
+                                    logique ou abstraite
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Résoudre des problème que l'on rencontre
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> 
+
+
+
+                        <p style="font-size:20px; padding-top: 20px; padding-bottom: 20px"><strong>Jeux associés à cette intelligence:</strong></p>  
+                        <ul>
+                            <li>Puzzles</li>
+                            <li>Casse-têtes</li>
+                            <li>Jeu de stratégie</li>
+                            <li>Calcul mental</li>
+                        </ul>         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%# **************************************
+INTELLIGENCE VERBALE-LINGUISTIQUE
+************************************** %>
+
+<div class="container box-container-AAA-jeu" style="margin-top: 30px">
+    <div class="row">
+        <div class="col-12">
+            <div class="box-AAA-menu">
+                <div class="button-ancre">
+                        <p id="ancre-2">Menu</p>
+                </div>
+                <a href="#menu-start" class="box-link">  
+                    <div class="button-menu">
+                            <p>Menu</p>
+                    </div>
+                </a> 
+                <h2  style="margin-bottom: 15px">Intelligence verbale-linguistique :</h2>
+                <%# <p style="font-size:20px; padding-top: 20px; padding-bottom: 20px"><strong>Supers pouvoirs 
+                associés à cette intelligence:</strong></p> %>
+                <div class="container">
+                    <div class="row" >   
+                        
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Capacité à catégoriser, ranger, ordonner
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    S'organiser
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Capacité à mesurer
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Capacité à calculer
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Analyser
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>   
+
+                        <div class="col-12 col-lg-6">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Analyser les causes et les conséquences d'un phénomène
+                                     et expliquer le pourquoi des choses
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>  
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Capacité à résoudre des problèmes de nature
+                                    logique ou abstraite
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-6 ">
+                            <div class="box-AAA-jeu-intel ">
+                                <ul>
+                                    <li>
+                                    Résoudre des problème que l'on rencontre
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> 
+
+
+
+                        <p style="font-size:20px; padding-top: 20px; padding-bottom: 20px"><strong>Jeux associés à cette intelligence:</strong></p>  
+                        <ul>
+                            <li>Puzzles</li>
+                            <li>Casse-têtes</li>
+                            <li>Jeu de stratégie</li>
+                            <li>Calcul mental</li>
+                        </ul>         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%# **************************************
+INTELLIGENCE LOGICO-MATHEMATIQUE
+************************************** %>
+
+<%# **************************************
+INTELLIGENCE LOGICO-MATHEMATIQUE
+************************************** %>
+
+<%# **************************************
+INTELLIGENCE LOGICO-MATHEMATIQUE
+************************************** %>
+
+<%# **************************************
+INTELLIGENCE LOGICO-MATHEMATIQUE
+************************************** %>
+
+<%# **************************************
+INTELLIGENCE LOGICO-MATHEMATIQUE
+************************************** %>
+
+<%# **************************************
+INTELLIGENCE LOGICO-MATHEMATIQUE
+************************************** %>

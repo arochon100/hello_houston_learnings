@@ -33,11 +33,17 @@
 
         <div class="row">
             <div class="col-md-12 col-lg-4">
-                <div class="box-learnings" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_intelligence.jpg' %>)" >
-                    <p>8 intelligences</p>
-                </div>
+                <%= link_to apprentissages_les_8_intelligences_Howard_Gardner_path, class: "box-link", 
+                data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_intelligence.jpg' %>)">
+                    <p>Les 8 intelligences</p>
+                    </div>
+                <% end %>
             </div>
+
+
+        
 
 <%# NATURE   ********************************************* %>
 
@@ -102,6 +108,17 @@
                     <div class="box-learnings" style="background-image: 
                     linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_cooking.jpg' %>)">
                         <p>Cuisiner</p>
+                    </div>
+                <% end %>
+            </div>
+
+<%# PUZZLE   ********************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_puzzle_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_jigsaw.jpg' %>)">
+                        <p>Puzzle</p>
                     </div>
                 <% end %>
             </div>
@@ -199,16 +216,8 @@
                 </div>
             </div>
 
-<%# PUZZLE   ********************************************* %>
 
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_puzzle_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-learnings" style="background-image: 
-                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_jigsaw.jpg' %>)">
-                        <p>Puzzle</p>
-                    </div>
-                <% end %>
-            </div>
+
             <div class="col-md-12 col-lg-4">
                 <div class="box-learnings" style="background-image: 
                 linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_strategy.jpg' %>)">
