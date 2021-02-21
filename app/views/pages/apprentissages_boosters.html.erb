@@ -42,6 +42,48 @@
         
         <div class="row">
 
+<%# *************************************************
+LES 3 ALLIÉS DE L'APPRENTISSAGE
+************************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_last.jpg' %>)" >
+                        <p>Les 3 alliés de l'apprentissage</p>
+                    </div>
+                <% end %>
+            </div>
+
+<%# *************************************************
+L'ENVIRONNEMENT
+************************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_boosters_environnement_montessori_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_space_sunset.jpg' %>)" >
+                        <p>Environnement</p>
+                    </div>
+                <% end %>
+            </div>    
+            
+
+<%# *************************************************
+LE JEU
+************************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                    url(<%= asset_path 'BBB_space_x.jpg' %>)" >
+                        <p>L'excellence amusante</p>
+                        <p>(Le jeu)</p>
+                    </div>
+                <% end %>
+            </div>
+
+
             <div class="col-md-12 col-lg-4">
                 <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
@@ -52,21 +94,14 @@
                 <% end %>
             </div>
 
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url(<%= asset_path 'BBB_space_x.jpg' %>)" >
-                        <p>L'excellence amoureuse</p>
-                    </div>
-                <% end %>
-            </div>
+
+
 
             <div class="col-md-12 col-lg-4">
                 <%= link_to apprentissages_boosters_jeu_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
                     url(<%= asset_path 'BBB_space_x.jpg' %>)" >
-                        <p>L'excellence amusante</p>
-                        <p>(Le jeu)</p>
+                        <p>L'excellence amoureuse</p>
                     </div>
                 <% end %>
             </div>
@@ -80,24 +115,10 @@
                 <% end %>
             </div>
 
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_boosters_environnement_montessori_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url(<%= asset_path 'BBB_space_sunset.jpg' %>)" >
-                        <p>Environnement</p>
-                    </div>
-                <% end %>
-            </div>    
+            
             
            
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-boosters" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url(<%= asset_path 'BBB_last.jpg' %>)" >
-                        <p>Les 3 alliés de l'apprentissage</p>
-                    </div>
-                <% end %>
-            </div>
+            
     
             <div class="col-md-12 col-lg-4">
                 <%= link_to apprentissages_boosters_pedagogie_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
