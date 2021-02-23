@@ -171,25 +171,40 @@
 }
 
 .banner-jeu  h1 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     margin-bottom: 20px;
 }
 
-.banner-jeu  h2 {
+@media screen and (min-width: 992px) {
+  .banner-jeu  h1 {
     font-size: 30px;
+  }
+} 
+
+
+.banner-jeu  h2 {
+    font-size: 20px;
     font-weight: bold;
     color: red;
     margin-bottom: 32px;
 }
 
+
+
 .banner-jeu  h3 {
-    font-size: 25px;
+    font-size: 20px;
     // font-weight: bold;
     color: white;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+@media screen and (min-width: 992px) {
+  .banner-jeu  h3 {
+    font-size: 28px;
+  }
+} 
 
 .banner-jeu  p {
     font-size: 20px;

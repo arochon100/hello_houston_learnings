@@ -5,6 +5,15 @@
     text-align: center;
 }
 
+@media screen and (min-width: 992px) {
+  .dev-title h2 {
+    width: 950px;
+    text-align: center;
+    margin: 0 auto;
+  }
+} 
+
+
 .title-dev {
     display: flex;
     justify-content: center;
