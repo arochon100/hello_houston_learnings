@@ -28,13 +28,13 @@ url(<%= asset_path 'DDD-banner-troubles.jpg' %>)">
 
 <div class="container">
     <div class="row">
-        <div class="col-12 row dev-title">
-            <h1>
+        <div class="col-12 dev-title">
+            <h2 style="font-size:18px">
              Les troubles de l'audition, visuels, du language et moteurs
              sont des freins au bien-être et aux apprentissages de votre enfant. 
              C'est pourquoi, il est impératif de les traiter le plus en amont possible.
              Quel doit être le suivi? Quels en sont les symptômes ? Qui dois-je consulter ? 
-              </h1>
+              </h2>
         </div>
     </div>
 </div>
@@ -42,30 +42,47 @@ url(<%= asset_path 'DDD-banner-troubles.jpg' %>)">
 
 <div class="container">
     <div class="row">
-        <div class="col-md-12 col-lg-4">
-            
-
-                <%= link_to developpement_enfant_troubles_audition_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+        
+        <div class="col-12 box-troubles-margin-bottom" >
+                <%= link_to "https://www.doctissimo.fr/sante/audition/depistage-des-problemes-d-audition/depistage-troubles-audition-enfant",
+                target: "_blank", class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-troubles-1">
-                        <p>Troubles de l'audition</p>
+                        <p class="trouble-p-noir">Troubles de l'audition</p>
+                        <p>Spécialiste : ORL (Oto-Rhino-Laryngologie)</p>
                     </div>
                 <% end %>
+        </div>
 
-            </div>
-            <div class="col-md-12 col-lg-4">
+            
+        <div class="col-12 box-troubles-margin-bottom">
+            <%= link_to "https://www.doctissimo.fr/html/sante/bien_voir/vision_enfant_niv2.htm",
+                target: "_blank", class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                 <div class="box-troubles-1">
-                    <p>Troubles visuels</p>
+                    <p class="trouble-p-noir">Troubles visuels</p>
+                    <p>Spécialiste : Ophtalmologue</p>
                 </div>
-            </div>
-            <div class="col-md-12 col-lg-4">
+            <% end %>
+        </div>
+
+        <div class="col-12 box-troubles-margin-bottom">
+            <%= link_to "https://www.doctissimo.fr/psychologie/troubles-langage/consultation-orthophoniste",
+                target: "_blank", class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                 <div class="box-troubles-1">
-                    <p>Troubles du language</p>
+                    <p class="trouble-p-noir">Troubles du language</p>
+                    <p>Spécialiste : Orthophoniste</p>
                 </div>
-            </div>
-            <div class="col-md-12 col-lg-4">
+            <% end %>
+        </div>
+
+        <div class="col-12 box-troubles-margin-bottom">
+            <%= link_to "https://www.vidal.fr/sante/enfants/suivi-medical/troubles-orthopediques.html",
+                target: "_blank", class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                 <div class="box-troubles-1">
-                    <p>Troubles orthopédiques (moteurs)</p>
+                    <p class="trouble-p-noir">Troubles orthopédiques (moteurs)</p>
+                    <p>Spécialiste : Chirurgien orthopédiste pédiatrique</p>
                 </div>
-            </div>
+            <% end %>
+        </div>
+
     </div>
 </div>

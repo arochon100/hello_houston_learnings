@@ -82,6 +82,7 @@
     // margin-right: 15px;
     // margin-left: 15px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 @media screen and (min-width: 992px) {
@@ -832,9 +833,9 @@
     justify-content: start;
     align-items: center;
     font-weight: bold;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     border-radius: 5px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    // box-shadow: 0 0 15px rgba(0,0,0,0.2);
     // margin-right: 15px;
     // margin-left: 15px;
     margin-bottom: 10px;
@@ -929,14 +930,19 @@
 
 // TROUBLES (HOME)
 
+.box-troubles-margin-bottom {
+  margin-bottom: 15px;
+}
+
 .box-troubles-1 {
     background-color: #0596de;
     background-size: cover;
     background-position: center;
-    height: 100px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: white;
     font-weight: bold;
     // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -947,24 +953,39 @@
     margin-bottom: 10px;
 }
 
+
+
 @media screen and (min-width: 992px) {
   .box-troubles-1 {
-    height: 150px;
+    height: 100%;
   }
 } 
 
 
+.box-troubles-1 p.trouble-p-noir {
+    color: #224358 !important;
+    font-size: 18px !important;
+
+}
+
+@media screen and (min-width: 992px) {
+  .box-troubles-1 p.trouble-p-noir {
+    color: #224358 !important;
+    font-size: 25px !important;
+  }
+} 
+
 .box-troubles-1 p {
     margin-bottom: 0px;
     color: white;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
     padding: 5px;
 }
 
 @media screen and (min-width: 992px) {
   .box-troubles-1 p{
-    font-size: 30px;
+    font-size: 20px;
     padding: 0 10px;
   }
 } 
