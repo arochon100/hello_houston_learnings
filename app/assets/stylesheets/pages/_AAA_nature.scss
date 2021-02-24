@@ -38,3 +38,16 @@
 .cont-img-salon {
     margin-top: 20px;
 }
+
+
+h2.h2-pedagogie-size {
+
+    margin-bottom: 15px
+}
+
+@media screen and (min-width: 992px) {
+  h2.h2-pedagogie-size  {
+    width: 900px;
+    margin: 0px auto 15px auto;
+  }
+} 
