@@ -5,6 +5,9 @@ Rails.application.routes.draw do
   # HOME
   get 'homebis' , to: 'pages#homebis'
   get 'homebis-1' , to: 'pages#homebis_1'
+  get 'download_pdf' , to: 'pages#download_pdf'
+  get 'download_jpg' , to: 'pages#download_jpg'
+  get 'sitemap_txt' , to: 'pages#sitemap_txt'
 
 
 

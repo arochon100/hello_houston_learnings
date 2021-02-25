@@ -6,7 +6,8 @@ class PagesController < ApplicationController
   :apprentissages_boosters_neurosciences_4_piliers_apprentissage, :apprentissages_boosters_neurosciences_activites,
   :apprentissages_boosters_singapour, :apprentissages_boosters_montessori, :apprentissages_boosters_environnement_maison,
   :apprentissages_puzzle, :apprentissages_nature, :apprentissages_temps, :apprentissages_math, :apprentissages_cuisiner,
-   :apprentissages_musique, :apprentissages_lecture, :homebis_1, :apprentissages_huit_intelligences]
+   :apprentissages_musique, :apprentissages_lecture, :homebis_1, :apprentissages_huit_intelligences,
+    :download_pdf, :download_jpg, :sitemap_txt]
 
   def home
   end
@@ -16,6 +17,30 @@ class PagesController < ApplicationController
 
   def homebis_1
   end
+
+        def download_pdf
+                send_file(
+                "#{Rails.root}/public/dalle_gazon.pdf",
+                filename: "dalle_gazon.pdf",
+                type: "application/pdf"
+                )
+        end
+
+        def download_jpg
+                send_file(
+                "#{Rails.root}/public/AAA_CARD_5_meditation.jpg",
+                filename: "AAA_CARD_5_meditation.jpg",
+                type: "application/jpg"
+                )
+        end
+
+        def sitemap_txt
+                send_file(
+                "#{Rails.root}/public/sitemap.txt",
+                filename: "sitemap.txt",
+                type: "application/txt"
+                )
+        end
 
 # *****************************************
 # *****************************************
