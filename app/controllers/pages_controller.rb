@@ -7,7 +7,7 @@ class PagesController < ApplicationController
   :apprentissages_boosters_singapour, :apprentissages_boosters_montessori, :apprentissages_boosters_environnement_maison,
   :apprentissages_puzzle, :apprentissages_nature, :apprentissages_temps, :apprentissages_math, :apprentissages_cuisiner,
    :apprentissages_musique, :apprentissages_lecture, :homebis_1, :apprentissages_huit_intelligences,
-    :download_pdf, :download_jpg, :sitemap_txt]
+    :download_pdf, :download_jpg, :sitemap_txt, :presentation]
 
   def home
   end
@@ -41,6 +41,17 @@ class PagesController < ApplicationController
                 type: "application/txt"
                 )
         end
+
+# *****************************************
+# *****************************************
+# *****************************************
+# *****************************************
+
+#PRÉSENTATION
+
+def presentation
+end
+
 
 # *****************************************
 # *****************************************
