@@ -54,6 +54,7 @@ class PagesController < ApplicationController
                 redirect_to params[:id]
         end
 
+        
 
 # *****************************************
 # *****************************************
