@@ -28,7 +28,8 @@ get 'presentation' , to: 'pages#presentation'
         # APPRENTISSAGES > puzzle
         get 'apprentissages-puzzle' , to: 'pages#apprentissages_puzzle'
         # APPRENTISSAGES > nature
-        get 'apprentissages-nature' , to: 'pages#apprentissages_nature'
+        get 'apprentissage-nature-enfant-2-a-6-ans' , to: 'pages#apprentissages_nature'
+        get 'apprentissages-nature', to: redirect('apprentissage-nature-enfant-2-a-6-ans', status: 301)
         # APPRENTISSAGES > temps
         get 'apprentissages-temps' , to: 'pages#apprentissages_temps'
         # APPRENTISSAGES > math
