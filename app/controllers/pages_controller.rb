@@ -48,12 +48,7 @@ class PagesController < ApplicationController
 # *****************************************
 # *****************************************
 
-        def redirector
-                #Redirections 301 des anciennes url
-                headers["Status"] = "301 Moved Permanently"
-                redirect_to params[:id]
-        end
-
+        
         
 
 # *****************************************

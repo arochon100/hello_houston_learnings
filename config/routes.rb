@@ -97,8 +97,7 @@ get 'presentation' , to: 'pages#presentation'
 # ***********************************************************************
 # ***********************************************************************
           
-map.connect '/apprentissages-math',
-:controller => 'pages', :action => 'redirector', :id => '/apprentissage-mathematiques-enfant-2-a-6-ans'
+
 
 
 
