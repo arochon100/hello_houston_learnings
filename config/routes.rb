@@ -33,7 +33,7 @@ get 'presentation' , to: 'pages#presentation'
         get 'apprentissages-temps' , to: 'pages#apprentissages_temps'
         # APPRENTISSAGES > math
         get 'apprentissage-mathematiques-enfant-2-a-6-ans' , to: 'pages#apprentissages_math'
-        get 'apprentissages-math' , to: 'pages#apprentissages_math'
+        get 'apprentissages-math', to: redirect('apprentissage-mathematiques-enfant-2-a-6-ans', status: 301)
         # APPRENTISSAGES > cusiner
         get 'apprentissages-cuisiner' , to: 'pages#apprentissages_cuisiner'
         # APPRENTISSAGES > musique
