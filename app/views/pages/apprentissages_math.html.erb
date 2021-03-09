@@ -1,4 +1,10 @@
-<% @title="Apprentissage math - enfant de 2 à 6 ans | Hello Houston Learnings" %>
+<% @title="L'Apprentissage de Mathématiques - enfant de 2 à 6 ans | Hello Houston Learnings" %>
+
+<% content_for :head do %>
+    <meta name="description" content="L'apprentissages des mathématiques pour les enfants de 2 à 6 ans : 
+appendre à compter devient un jeu d'enfant avec la méthode de Singapour et la pédagogie Montessori.">
+<% end %>
+
 
 <%# NAVBAR %>
   <%= render 'shared/navbar_official'  %>
@@ -7,7 +13,11 @@
 <div class="banner-puzzle" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
 url(<%= asset_path 'banner-singapour.jfif' %>)">
     <div class="container">
-        <h1 style="margin-bottom:0px">MATHÉMATIQUES</h1> 
+        <div class="row">
+            <div class="col-12">
+                <h1 style="margin-bottom:0px">L'APPRENTISSAGE DES MATHÉMATIQUES POUR LES ENFANTS DE 2 À 6 ANS</h1> 
+            </div>
+        </div>
     </div>  
 </div>
 
@@ -19,7 +29,7 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
              <p>
              <%= link_to "home", root_path, class: " link ariane", id: "menu-start", data: { turbolinks: false } %> > 
              <%= link_to "apprentissages", apprentissages_path, class: " link ariane", data: { turbolinks: false } %> >
-             <%= link_to "mathématiques", apprentissages_math_path, class: " link ariane", data: { turbolinks: false } %>
+             <%= link_to "mathématiques", apprentissage_mathematiques_enfant_2_a_6_ans_path, class: " link ariane", data: { turbolinks: false } %>
              </p>     
         </div>
     </div>
@@ -102,7 +112,7 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
                             <p>Menu</p>
                     </div>
                 </a> 
-                <h2  style="margin-bottom: 15px">À partir de 3 ans</h2>
+                <h2  style="margin-bottom: 15px">Les mathématiques à partir de 3 ans</h2>
                 <div class="container cont-chambre cont-img-salon">
                     <div class="row">
 
@@ -281,7 +291,7 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
                             <p>Menu</p>
                     </div>
                 </a> 
-                <h2  style="margin-bottom: 15px">À partir de 4 ans</h2>
+                <h2  style="margin-bottom: 15px">Les mathématiques à partir de 4 ans</h2>
                 <div class="container cont-chambre cont-img-salon">
                     <div class="row">
 
@@ -424,7 +434,7 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
                             <p>Menu</p>
                     </div>
                 </a> 
-                <h2  style="margin-bottom: 15px">À partir de 5 ans</h2>
+                <h2  style="margin-bottom: 15px">Les mathématiques à partir de 5 ans</h2>
                 <div class="container cont-chambre cont-img-salon">
                     <div class="row">
 
@@ -501,7 +511,7 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
                     </div>
                 </a> 
 
-                <h2  style="margin-bottom: 15px">À partir de 6 ans</h2>
+                <h2  style="margin-bottom: 15px">Les mathématiques à partir de 6 ans</h2>
                 
                 <div class="container cont-chambre cont-img-salon">
                     <div class="row">

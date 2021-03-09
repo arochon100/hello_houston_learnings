@@ -32,7 +32,7 @@ get 'presentation' , to: 'pages#presentation'
         # APPRENTISSAGES > temps
         get 'apprentissages-temps' , to: 'pages#apprentissages_temps'
         # APPRENTISSAGES > math
-        get 'apprentissages-math' , to: 'pages#apprentissages_math'
+        get 'apprentissage-mathematiques-enfant-2-a-6-ans' , to: 'pages#apprentissages_math'
         # APPRENTISSAGES > cusiner
         get 'apprentissages-cuisiner' , to: 'pages#apprentissages_cuisiner'
         # APPRENTISSAGES > musique
