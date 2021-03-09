@@ -33,6 +33,7 @@ get 'presentation' , to: 'pages#presentation'
         get 'apprentissages-temps' , to: 'pages#apprentissages_temps'
         # APPRENTISSAGES > math
         get 'apprentissage-mathematiques-enfant-2-a-6-ans' , to: 'pages#apprentissages_math'
+        get 'apprentissages-math' , to: 'pages#apprentissages_math'
         # APPRENTISSAGES > cusiner
         get 'apprentissages-cuisiner' , to: 'pages#apprentissages_cuisiner'
         # APPRENTISSAGES > musique
@@ -92,7 +93,15 @@ get 'presentation' , to: 'pages#presentation'
           #TROUBLES > AUDITION
           get 'developpement-enfant-troubles-audition' , to: 'pages#troubles_audition'
   
-  
+# ***********************************************************************
+# ***********************************************************************
+# ***********************************************************************
+          
+map.connect '/apprentissages-math',
+:controller => 'pages', :action => 'redirector', :id => '/apprentissage-mathematiques-enfant-2-a-6-ans'
+
+
+
 end  
   
   
