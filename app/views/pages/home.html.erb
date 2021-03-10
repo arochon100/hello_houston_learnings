@@ -30,37 +30,99 @@ nature, musique, cooking, lecture, mathématiques, puzzle, robotique, rangement,
 
 <%# BLOCKS %>
 <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url(<%= asset_path 'box_lego600x360.jpg' %>)" >
-                        <p>Apprentissages par le jeu</p>
-                    </div>
-                <% end %>
-            </div>
-
-            <div class="col-md-12 col-lg-4">
-                <%= link_to developpement_enfant_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url(<%= asset_path 'développement.jpg' %>)" >
-                    <p>Développement de l'enfant</p>
+    <div class="row">
+        <div class="col-md-12 col-lg-4">
+            <%= link_to apprentissages_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                url(<%= asset_path 'box_lego600x360.jpg' %>)" >
+                    <p>Apprentissages par le jeu</p>
                 </div>
-                <% end %>
-            </div>
+            <% end %>
+        </div>
 
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_boosters_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
-                    url(<%= asset_path 'Boosters.jpg' %>)">
-                        <p>Boosters de l'apprentissage</p>
-                    </div>
-                <% end %>    
+        <div class="col-md-12 col-lg-4">
+            <%= link_to developpement_enfant_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                url(<%= asset_path 'développement.jpg' %>)" >
+                <p>Développement de l'enfant</p>
             </div>
-            
-            
+            <% end %>
+        </div>
+
+        <div class="col-md-12 col-lg-4">
+            <%= link_to apprentissages_boosters_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                <div class="box-home" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+                url(<%= asset_path 'Boosters.jpg' %>)">
+                    <p>Boosters de l'apprentissage</p>
+                </div>
+            <% end %>    
         </div>
     </div>
+</div>
 
+<div class="container home-quote-container">
+    <div class="row">
+
+<%# **************************************
+NEUROSCIENCES
+************************************** %>
+
+        <div class="col-12">
+            <div class="home-quote-div">
+                <blockquote>
+                    <h2 class="quote-width-992px">
+                    "Les deux plus hautes formes d'excellence dans l'économie de la connaissance
+                    sont l'excellence amoureuse et l'excellence amusante."
+                    </h2>
+                    <cite class="home-cite">
+                    Libérez votre cerveau ! de Idriss Aberkane
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+
+<%# **************************************
+MONTESSORI
+************************************** %>
+
+        <div class="col-12 col-12-margin-top">
+            <div class="home-quote-div">
+                <blockquote>
+                    <h2 class="quote-width-992px">
+                    "La période la plus importante de la vie se situe entre 
+                    la naissance et six ans et non pas durant les études universitaires."
+                    </h2>
+                    <cite class="home-cite">
+                    Maria Montessori
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+
+<%# **************************************
+SINGAPOUR
+************************************** %>
+
+        <div class="col-12 col-12-margin-top">
+            <div class="home-quote-div">
+                <blockquote>
+                    <h2 class="quote-width-992px">
+                    "La méthode Singapour aide les enfants à réfléchir, à raisonner. Elle les incite à voir la présence
+                        des mathématiques dans leur vie, leurs applications et même leur beauté. La manipulation et la 
+                        résolution de problèmes mettant en scène des situations concrètes mènent progressivement à 
+                        l'abstraction, ce qui permet d'assoir des connaissances approfondies qui peuvent aider à 
+                        la compréhension de notions plus avancées, introduites au collège, au lycée, et même à l'université."
+                    </h2>
+                    <cite class="home-cite">
+                    Monica Neagoy - didacticienne qui a traduit et adapté la méthode Singapour en France.
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
 
     

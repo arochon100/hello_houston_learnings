@@ -8,3 +8,39 @@
     margin-top: 40px;
 }
 
+
+.home-quote-container {
+    margin-top: 60px;
+}
+
+
+.home-quote-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quote-width-992px {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+.quote-width-992px{
+    width:950px;
+    font-size: 25px;
+}
+} 
+
+cite.home-cite {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+div.col-12-margin-top {
+    margin-top: 40px;
+}
