@@ -3,8 +3,10 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   
   # HOME
-  get 'homebis' , to: 'pages#homebis'
-  get 'homebis-1' , to: 'pages#homebis_1'
+  # get 'homebis' , to: 'pages#homebis'
+  get 'homebis', to: redirect('', status: 301)
+  # get 'homebis-1' , to: 'pages#homebis_1'
+  get 'homebis-1', to: redirect('', status: 301)
   get 'download_pdf' , to: 'pages#download_pdf'
   get 'download_jpg' , to: 'pages#download_jpg'
   get 'sitemap_txt' , to: 'pages#sitemap_txt'
