@@ -41,6 +41,16 @@
 }
 } 
 
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 991px)
+   {
+    .quote-width-992px   {
+        width:600px;
+        font-size: 25px;
+    }
+}
+
 cite.home-cite {
     display: block;
     text-align: center;
