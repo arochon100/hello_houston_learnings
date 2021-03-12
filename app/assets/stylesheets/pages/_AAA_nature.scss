@@ -47,7 +47,42 @@ h2.h2-pedagogie-size {
 
 @media screen and (min-width: 992px) {
   h2.h2-pedagogie-size  {
-    width: 900px;
+    // width: 900px;
     margin: 0px auto 15px auto;
   }
 } 
+
+div.col-lg-3.promo  {
+    display:flex; 
+    // justify-content:center; 
+    // align-items:center
+    flex-direction:column;
+    justify-content: start;
+    margin-bottom:20px;
+    padding: 36px;
+}
+
+
+@media screen and (min-width: 992px) {
+  div.col-lg-3.promo {
+    flex-direction:column;
+    justify-content: start;
+    margin-bottom:20px;
+    padding: 0px;
+  }
+} 
+
+
+div.reclame {
+    margin-bottom:20px;
+    padding:5px;
+}
+
+@media screen and (min-width: 992px) {
+  div.reclame {
+    margin-bottom:20px;
+    padding:0px;
+    } 
+}
+
+
