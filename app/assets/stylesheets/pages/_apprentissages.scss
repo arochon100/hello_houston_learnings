@@ -4,3 +4,44 @@
 
 
 
+
+
+
+.apprentissage-quote-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.apprentissage-quote-width-992px {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #03bddf;
+}
+
+
+
+@media screen and (min-width: 992px) {
+.apprentissage-quote-width-992px{
+    width:950px;
+    font-size: 35px;
+}
+} 
+
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 991px)
+   {
+    .apprentissage-quote-width-992px   {
+        width:600px;
+        font-size: 25px;
+    }
+}
+
+cite.apprentissage-cite {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
