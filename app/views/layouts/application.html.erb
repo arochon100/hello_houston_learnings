@@ -11,21 +11,6 @@
     <!-- End Google Tag Manager -->
 
 
-<%# *************GOOGLE ANALYTICS********************************** %>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNVL2HD80E"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RNVL2HD80E');
-</script>
-    
-
-
-
 <%# *************TITLE********************************** %>
 
     <title><%= @title %></title>
@@ -66,6 +51,19 @@
 
     <!-- BOOTSTRAP JAVASCRIPTS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<%# *************GOOGLE ANALYTICS********************************** %>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RNVL2HD80E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RNVL2HD80E');
+</script>
+<%# *************GOOGLE ANALYTICS********************************** %>
 
   </body>
 </html>
