@@ -96,7 +96,8 @@ get 'presentation' , to: 'pages#presentation'
       # TROUBLES
       get 'developpement-enfant-troubles' , to: 'pages#troubles'
           #TROUBLES > AUDITION
-          get 'developpement-enfant-troubles-audition' , to: 'pages#troubles_audition'
+          # get 'developpement-enfant-troubles-audition' , to: 'pages#troubles_audition'
+          get 'developpement-enfant-troubles-audition', to: redirect('developpement-enfant-troubles', status: 301)
   
 # ***********************************************************************
 # ***********************************************************************
