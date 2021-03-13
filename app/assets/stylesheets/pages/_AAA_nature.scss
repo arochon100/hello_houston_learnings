@@ -53,18 +53,19 @@ h2.h2-pedagogie-size {
 } 
 
 div.col-lg-3.promo  {
-    display:flex; 
+    display:none; 
     // justify-content:center; 
     // align-items:center
-    flex-direction:column;
-    justify-content: start;
-    margin-bottom:20px;
-    padding: 36px;
+    // flex-direction:column;
+    // justify-content: start;
+    // margin-bottom:20px;
+    // padding: 36px;
 }
 
 
 @media screen and (min-width: 992px) {
   div.col-lg-3.promo {
+    display:flex; 
     flex-direction:column;
     justify-content: start;
     margin-bottom:20px;
