@@ -2,3 +2,20 @@
     font-size:20px;
     font-weight:bold;
 }
+
+
+div.col-lg-9.responsive-learning-reclame {
+    padding:0px !important;
+}
+
+div.container.responsive-learning-reclame {
+    padding:0px 15px !important;
+}
+
+
+
+@media screen and (min-width: 992px) {
+  div.container.responsive-learning-reclame{
+    padding:0px 24px !important;
+  }
+} 

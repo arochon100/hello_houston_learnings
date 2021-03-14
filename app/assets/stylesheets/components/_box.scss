@@ -100,12 +100,21 @@
     padding: 5px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1201px) {
   .box-learnings p{
     font-size: 30px;
     padding: 0 10px;
   }
 } 
+
+@media only screen
+  and (min-width: 992px)
+  and (max-width: 1200px)
+   {
+    .box-learnings.font-size p   {
+        font-size: 20px; 
+    }
+}
 
 // BOX BOOSTERS
     // BOOSTERS
@@ -1017,6 +1026,10 @@
   }
 } 
 
+
+.box-learnings.font-size {
+
+}
 
 .box-troubles p {
     margin-bottom: 0px;
