@@ -106,13 +106,24 @@ COLONNE DE DROITE **************************************************************
                                 </div>
                             </a>
                         </div>
-                        <div class="col-6 col-lg-4 ">
+                        <div class="col-6 col-lg-4 " style="margin-bottom:20px;">
                             <a href="#ancre-5" class="box-link">
                                 <div class="box-AAA-menu-general-inside" style="background-color:#03bddf !important">
                                         <p>Apprendre à lire</p>
                                 </div>
                             </a>
                         </div>    
+
+                        <div class="col-6 col-lg-4 " >
+                            <%# <a href="#ancre-5" class="box-link"> %>
+                                <div class="box-AAA-menu-general-inside" style="margin-bottom:20px;background-color:#ccecfa !important;">
+                                        <p style="color:#224358 !important;"><%= link_to "Tous les apprentissages", apprentissages_path, class: " box-link",
+                                         data: { turbolinks: false }, style: "color:#224358 !important" %></p>
+                                        <%# <p style="color:#224358 !important;">Tous les apprentissages Hello Houston Learnings !</p> %>
+                                </div>
+                            <%# </a> %>
+                        </div>    
+
 
 
                     </div>
