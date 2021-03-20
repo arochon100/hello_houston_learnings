@@ -87,3 +87,14 @@ div.reclame {
 }
 
 
+h3.video-nature-x {
+    text-align:center;
+    font-size:10px;
+}
+
+
+@media screen and (min-width: 992px) {
+  h3.video-nature-x {
+    font-size:18px;
+    } 
+}
