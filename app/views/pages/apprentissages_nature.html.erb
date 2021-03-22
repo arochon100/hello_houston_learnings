@@ -104,7 +104,7 @@ MENU
                         <div class="col-6 col-lg-4 ">
                             <a href="#ancre-5" class="box-link">
                                 <div class="box-AAA-menu-general-inside" style="background-color:#03bddf !important">
-                                    <p>Études</p>
+                                    <p>Études sur la nature</p>
                                 </div>
                             </a>
                         </div>   
@@ -116,15 +116,7 @@ MENU
                             </a>
                         </div>  
 
-                        <div class="col-6 col-lg-4 " >
-                            <%# <a href="#ancre-5" class="box-link"> %>
-                                <div class="box-AAA-menu-general-inside" style="margin-bottom:20px;background-color:#ccecfa !important;">
-                                        <p class="learning-menu-all"><%= link_to "Tous les apprentissages", apprentissages_path, class: " box-link",
-                                         data: { turbolinks: false }, style: "color:#224358 !important" %></p>
-                                        <%# <p style="color:#224358 !important;">Tous les apprentissages Hello Houston Learnings !</p> %>
-                                </div>
-                            <%# </a> %>
-                        </div>    
+                        <%= render 'shared/button_towards_learning'  %> 
 
 
 
@@ -816,7 +808,7 @@ APPRTEMENT - MAISON
 
 
 
-                <h2  style="margin-bottom: 15px">Études internationales des bienfaits de la nature pour les enfants </h2>
+                <h2  style="margin-bottom: 15px">Études internationales sur les bienfaits de la nature pour les enfants </h2>
 
                 
 
@@ -831,6 +823,7 @@ APPRTEMENT - MAISON
 
                         <div class="col-12 col-12-sous-rubrique" style="margin-bottom:20px">
                             <div class="nature-sous-rubrique">
+                                <h3>[Étude sur les bienfaits de la nature]</h3>
                                 <h3>Les enfants en contact quotidien avec la nature sont moins malades, plus sociables et ont une meilleure concentration</h3>
                             </div>
                         </div>
