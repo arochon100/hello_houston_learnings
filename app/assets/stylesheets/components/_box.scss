@@ -92,12 +92,44 @@
 } 
 
 
+// ********************************************* <H2> ****************************************
+// ********************************************* <H2> ****************************************
+
+.box-learnings h2 {
+    margin-bottom: 0px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1201px) {
+  .box-learnings h2{
+    font-size: 30px;
+    padding: 0 10px;
+  }
+} 
+
+@media only screen
+  and (min-width: 992px)
+  and (max-width: 1200px)
+   {
+    .box-learnings.font-size h2   {
+        font-size: 20px; 
+    }
+}
+
+// ********************************************* <p> ****************************************
+// ********************************************* <p> ****************************************
+
 .box-learnings p {
     margin-bottom: 0px;
     color: white;
     font-size: 30px;
     text-align: center;
     padding: 5px;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 1201px) {
@@ -115,6 +147,9 @@
         font-size: 20px; 
     }
 }
+
+
+
 
 // BOX BOOSTERS
     // BOOSTERS
