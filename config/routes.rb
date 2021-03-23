@@ -34,17 +34,17 @@ get 'presentation' , to: 'pages#presentation'
         # get 'apprentissages-nature', to: redirect('apprentissage-nature-enfant-2-a-6-ans', status: 301)
         # APPRENTISSAGES > temps
         get 'apprentissage-temps-enfant-2-a-6-ans' , to: 'pages#apprentissages_temps'
-        get 'apprentissages-temps', to: redirect('apprentissage-temps-enfant-2-a-6-ans', status: 301)
+        # get 'apprentissages-temps', to: redirect('apprentissage-temps-enfant-2-a-6-ans', status: 301)
         # APPRENTISSAGES > math
         get 'apprentissage-mathematiques-enfant-2-a-6-ans' , to: 'pages#apprentissages_math'
-        get 'apprentissages-math', to: redirect('apprentissage-mathematiques-enfant-2-a-6-ans', status: 301)
+        # get 'apprentissages-math', to: redirect('apprentissage-mathematiques-enfant-2-a-6-ans', status: 301)
         # APPRENTISSAGES > cusiner
         get 'apprentissages-cuisiner' , to: 'pages#apprentissages_cuisiner'
         # APPRENTISSAGES > musique
         get 'apprentissages-musique' , to: 'pages#apprentissages_musique'
         # APPRENTISSAGES > lecture
         get 'apprentissage-lecture-enfant-2-a-6-ans' , to: 'pages#apprentissages_lecture'
-        get 'apprentissages-lecture', to: redirect('apprentissage-lecture-enfant-2-a-6-ans', status: 301)
+        # get 'apprentissages-lecture', to: redirect('apprentissage-lecture-enfant-2-a-6-ans', status: 301)
         # APPRENTISSAGES > les 8 intelligences
         get 'apprentissages-les-8-intelligences-Howard-Gardner' , to: 'pages#apprentissages_huit_intelligences'
 
