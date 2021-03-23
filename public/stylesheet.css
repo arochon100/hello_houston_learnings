@@ -1,0 +1,10 @@
+h1 {
+    color:white;
+}
+
+.col-12-displayx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
