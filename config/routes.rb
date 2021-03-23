@@ -31,7 +31,7 @@ get 'presentation' , to: 'pages#presentation'
         get 'apprentissages-puzzle' , to: 'pages#apprentissages_puzzle'
         # APPRENTISSAGES > nature
         get 'apprentissage-nature-enfant-2-a-6-ans' , to: 'pages#apprentissages_nature'
-        get 'apprentissages-nature', to: redirect('apprentissage-nature-enfant-2-a-6-ans', status: 301)
+        # get 'apprentissages-nature', to: redirect('apprentissage-nature-enfant-2-a-6-ans', status: 301)
         # APPRENTISSAGES > temps
         get 'apprentissage-temps-enfant-2-a-6-ans' , to: 'pages#apprentissages_temps'
         get 'apprentissages-temps', to: redirect('apprentissage-temps-enfant-2-a-6-ans', status: 301)
