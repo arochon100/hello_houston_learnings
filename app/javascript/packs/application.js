@@ -22,6 +22,9 @@ require("channels")
 // WRITE YOUR OWN JS STARTING FROM HERE 👇
 // ----------------------------------------------------
 
+
+import { all } from "../components/all"
+
 // External imports
 import "bootstrap";
 
