@@ -41,7 +41,7 @@ get 'presentation' , to: 'pages#presentation'
         # APPRENTISSAGES > cusiner
         get 'apprentissages-cuisiner' , to: 'pages#apprentissages_cuisiner'
         # APPRENTISSAGES > musique
-        get 'apprentissages-musique' , to: 'pages#apprentissages_musique'
+        get 'apprentissage-musique-jeu-enfant-2-a-6-ans' , to: 'pages#apprentissages_musique'
         # APPRENTISSAGES > lecture
         get 'apprentissage-lecture-enfant-2-a-6-ans' , to: 'pages#apprentissages_lecture'
         # get 'apprentissages-lecture', to: redirect('apprentissage-lecture-enfant-2-a-6-ans', status: 301)

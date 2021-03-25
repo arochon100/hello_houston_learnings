@@ -101,11 +101,11 @@ COLONNE DE DROITE **************************************************************
 <%# MUSIQUE   ********************************************* %>
 
             <div class="col-md-12 col-lg-4">
-                <%= link_to  apprentissages_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                <%= link_to  apprentissage_musique_jeu_enfant_2_a_6_ans_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
                     <div class="box-learnings font-size" style="background-image: 
                     linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_music.jpg' %>)">
                         <h2>Musique</h2>
-                        <p class="coming-soon-learnings">Coming soon!</p>
+                        <%# <p class="coming-soon-learnings">Coming soon!</p> %>
                     </div>
                 <% end %>
             </div>
