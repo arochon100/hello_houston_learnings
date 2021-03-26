@@ -28,11 +28,20 @@
 
             .box-AAA-jeu-intel  p {
                 margin-bottom: 0px;
-                color: #224358;;
+                color: #224358;
                 font-size: 12px;
                 text-align: left;
                 padding: 5px;
             }
+
+            .box-AAA-jeu-intel  ul li{
+                margin-bottom: 0px;
+                color: #224358;
+                font-size: 12px !important;
+                text-align: left;
+                padding: 5px;
+            }
+
 
             @media screen and (min-width: 992px) {
             .box-AAA-jeu-intel  p{

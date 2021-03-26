@@ -11,3 +11,15 @@
 .fff {
     margin: 0 auto !important;
 }
+
+
+.intro-video-musique {
+    font-size: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .intro-video-musique  {
+        font-size: 20px;
+    }
+} 
