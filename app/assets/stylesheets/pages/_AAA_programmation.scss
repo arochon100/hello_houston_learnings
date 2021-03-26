@@ -1,0 +1,30 @@
+
+
+#h2-cubetto {
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#h3-menu-cubetto {
+    text-align: center;
+    font-weight: bold;
+    font-size:15px;
+}
+
+@media screen and (min-width: 768px) {
+  #h3-menu-cubetto {
+    font-size: 25px;
+  }
+} 
+
+.img-temoignage {
+    border-radius:50%;
+    width:50%;
+}
+
+@media screen and (min-width: 768px) {
+  .img-temoignage {
+    width: 120px;
+  }
+} 
