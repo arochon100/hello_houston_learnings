@@ -1,0 +1,52 @@
+.box-link-cerveau:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.box-link-cerveau {
+    text-decoration: none;
+}
+
+
+
+.box-cerveau-alvarez {
+    background-color: #ccecfa;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-weight: bold;
+    // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    // box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    // margin-right: 15px;
+    // margin-left: 15px;
+    margin-bottom: 10px;
+    
+}
+
+@media screen and (min-width: 992px) {
+  .box-cerveau-alvarez {
+    height: 100%;
+  }
+} 
+
+
+.box-cerveau-alvarez p {
+    margin-bottom: 0px;
+    color: #224358;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media screen and (min-width: 992px) {
+  .box-cerveau-alvarez p{
+    font-size: 20px;
+    padding: 0 10px;
+  }
+} 
