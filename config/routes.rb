@@ -46,10 +46,12 @@ get 'presentation' , to: 'pages#presentation'
         get 'apprentissage-lecture-enfant-2-a-6-ans' , to: 'pages#apprentissages_lecture'
         # get 'apprentissages-lecture', to: redirect('apprentissage-lecture-enfant-2-a-6-ans', status: 301)
         # APPRENTISSAGES > les 8 intelligences
-        get 'apprentissages-les-8-intelligences-Howard-Gardner' , to: 'pages#apprentissages_huit_intelligences'
+       get 'apprentissage-programmation-robot-jeu-enfant-2-a-6-ans' , to: 'pages#apprentissages_programmation'
 
 
 
+
+        
 
 
 # ***********************************************************************

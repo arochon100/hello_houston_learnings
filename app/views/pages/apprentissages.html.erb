@@ -113,6 +113,33 @@ COLONNE DE DROITE **************************************************************
             </div>
 
 
+<%# PROGRAMMATION  ********************************************* %>
+
+
+
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissage_programmation_robot_jeu_enfant_2_a_6_ans_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings font-size" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_robotics.jpg' %>)">
+                        <h2>Programmation</h2>
+                    </div>
+                <% end %>
+            </div>
+
+
+
+
+<%# PUZZLE   ********************************************* %>
+
+            <div class="col-md-12 col-lg-4">
+                <%= link_to apprentissages_puzzle_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
+                    <div class="box-learnings font-size" style="background-image: 
+                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_jigsaw.jpg' %>)">
+                        <h2>Puzzle</h2>
+                    </div>
+                <% end %>
+            </div>
 
 
 
@@ -128,16 +155,6 @@ COLONNE DE DROITE **************************************************************
                 <% end %>
             </div>
 
-<%# PUZZLE   ********************************************* %>
-
-            <div class="col-md-12 col-lg-4">
-                <%= link_to apprentissages_puzzle_path, class: "box-link", data: { turbolinks: false } , :action => 'go' do %>
-                    <div class="box-learnings font-size" style="background-image: 
-                    linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_jigsaw.jpg' %>)">
-                        <h2>Puzzle</h2>
-                    </div>
-                <% end %>
-            </div>
 
 <%# CALCUL MENTAL  ********************************************* %>
 
@@ -168,15 +185,6 @@ COLONNE DE DROITE **************************************************************
 
 
 
-<%# ROBOTICS   ********************************************* %>
-
-            <div class="col-md-12 col-lg-4">
-                <div class="box-learnings font-size" style="background-image: 
-                linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'LLL_robotics.jpg' %>)">
-                    <h2>Robotique</h2>
-                    <p class="coming-soon-learnings">Coming soon!</p>
-                </div>
-            </div>
 
 
 

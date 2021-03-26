@@ -1,0 +1,227 @@
+<% @title="Apprentissage de la Programmation par le Jeu pour les Enfants de 2 à 6 ans | Hello Houston Learnings" %>
+
+
+<%# *************************DESCRIPTION*************************************************** %>
+<% content_for :head do %>
+    <meta name="description" content="Apprentissage de la programmation par le jeu pour les enfants de 2 à 6 ans : 
+Initier à la programmation dans un univers type Montessori ou l'écran n'a pas sa place. Le robot, le compagnon idéal pour l'éveil à la programmation.">
+<% end %>
+<%# *************************DESCRIPTION*************************************************** %>
+
+
+<%# *************************CANONICAL*************************************************** %>
+<% content_for :head do %>
+    <link rel="canonical" href="https://www.hello-houston-learnings.com/apprentissage-musique-jeu-enfant-2-a-6-ans" />
+<% end %>
+<%# *************************CANONICAL*************************************************** %>
+
+
+
+
+
+
+
+
+
+
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+<%# BANNER %>
+<div class="banner-puzzle" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
+url(<%= asset_path 'PPP-programmation-banner.jpg' %>)">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 style="margin-bottom:0px">APPRENTISSAGE DE LA MUSIQUE PAR LE JEU POUR LES ENFANTS DE 2 À 6 ANS</h1> 
+            </div>
+        </div>
+    </div>  
+</div>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p>
+             <%= link_to "home", root_path, class: " link ariane", id: "menu-start", data: { turbolinks: false } %> > 
+             <%= link_to "apprentissages", apprentissages_path, class: " link ariane", data: { turbolinks: false } %> >
+             <%= link_to "musique", apprentissage_musique_jeu_enfant_2_a_6_ans_path, class: " link ariane", data: { turbolinks: false } %>
+             </p>     
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<%# **************************************
+MENU
+************************************** %>
+
+
+<%= render 'shared/the_selection'  %>
+
+
+<div class="container">
+    <div class="row">
+
+
+<%# ************************************************************************************************************* %>
+
+
+
+        <div class="col-lg-9" style="margin-bottom:40px">
+
+
+
+<%# ************************************************************************************************************* %>
+
+
+<div class="container box-container-AAA-jeu">
+    <div class="row">
+        <div class="col-12">
+
+            <div class="box-AAA-menu-general">
+
+
+                <div class="container">
+                    <div class="row" >   
+
+
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-1" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math">
+                                    <p >Bienfaits</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-2" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math">
+                                    <p >Comptines</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-6 col-lg-4">
+                            <a href="#ancre-3" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math">
+                                    <p>Instruments de musique</p>
+                                </div>
+                            </a>
+                        </div>  
+
+                        
+
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-4" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math">
+                                    <p>Réveil en musique</p>
+                                </div>
+                            </a>
+                        </div>   
+
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-7" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math">
+                                    <p>Méthode Yamaha</p>
+                                </div>
+                            </a>
+                        </div>   
+
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-5" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math" style="background-color:#03bddf !important">
+                                    <p>Études sur la musique</p>
+                                </div>
+                            </a>
+                        </div>   
+
+                        <div class="col-6 col-lg-4 ">
+                            <a href="#ancre-6" class="box-link">
+                                <div class="box-AAA-menu-general-inside-math" style="background-color:#03bddf !important">
+                                    <p>Aller plus loin...</p>
+                                </div>
+                            </a>
+                        </div>  
+
+                        <%= render 'shared/button_towards_learning'  %> 
+
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<%# VIDEO 1 > NEUROSCIENCES & MUSIQUE    %>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <h2 class="reclame-video-title intro-video-musique">Les bienfaits de la musique</h2>
+                        <div class="embed-responsive embed-responsive-16by9 reclame" style="padding: 5px">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ijT7nsA290I" 
+                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                                    gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            
+            
+
+
+
+
+<!-- Nature > intro -->
+<!-- Nature > intro -->
+<div class="container">
+    <div class="row">
+        <div class="col-12 musique-intro">
+        
+            <blockquote>
+                <h2 class="learnings-introduction-citation" style="font-weight: normal !important">
+                    <strong>"Faire de la musique favorise les apprentissages scolaires</strong>. L’explication la plus probable 
+                    est qu’apprendre la musique améliore les fonctions dites exécutives. Ces dernières regroupent 
+                    un ensemble d’habiletés impliquées dans la planification, la mémoire de travail, l’inhibition
+                    de réponses inappropriées et la concentration. Les fonctions exécutives sont dites transversales
+                    parce qu’elles opèrent de la même façon en lecture, en mathématiques, dans l’apprentissage
+                    d’une langue étrangère ou dans l’apprentissage de la musique. Le développement de ces 
+                    fonctions exécutives serait favorisé par l’apprentissage de la musique, surtout durant 
+                    le développement, y compris pendant l’adolescence."
+
+                </h2>
+            </blockquote>
+            <cite style="margin-bottom:20px;">Peretz, Isabelle - Apprendre la musique</cite>
+
+        </div>
+    </div>
+</div>
+<!-- Nature > intro -->
+<!-- Nature > intro -->
+
+
+
+<strong></strong>
