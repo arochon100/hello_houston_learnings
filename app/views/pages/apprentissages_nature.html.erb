@@ -4,6 +4,9 @@
 
 
 
+
+
+
 <%# *************************DESCRIPTION*************************************************** %>
 <% content_for :head do %>
     <meta name="description" content="L'apprentissage par le jeu de la nature pour les enfants de 2 à 6 ans : 
@@ -17,6 +20,20 @@ apprendre à aimer la nature est un des plus beaux cadeaux qu'on puisse faire à
     <link rel="canonical" href="https://www.hello-houston-learnings.com/apprentissage-nature-enfant-2-a-6-ans" />
 <% end %>
 <%# *************************CANONICAL*************************************************** %>
+
+
+<%# ************************* FACEBOOK *************************************************** %>
+<% content_for :head do %>
+<meta property="og:url"                content="https://www.hello-houston-learnings.com/apprentissage-nature-enfant-2-a-6-ans" />
+<meta property="og:type"               content="" />
+<meta property="og:title"              content="L'apprentissage par le jeu de la nature pour les enfants de 2 à 6 ans | Hello Houston Learnings" />
+<meta property="og:description"        content="Apprendre à aimer la nature est un des plus beaux cadeaux qu'on puisse faire à un enfant." />
+<meta property="og:image"              content="https://www.hello-houston-learnings.com/assets/AAA-nature-banner-c6540af6af40d8c51327ab77a4ba770a795a30b88fc1c0a02d55c5d5936aba6b.jpg" />
+<% end %>
+<%# ************************* FACEBOOK *************************************************** %>
+
+
+
 
 <%# NAVBAR %>
   <%= render 'shared/navbar_official'  %>
@@ -141,6 +158,9 @@ MENU
         <div class="col-1"></div>
     </div>
 </div>
+
+
+
 <%# ********************************IMAGE INTRO**********************************************
 ********************************IMAGE INTRO********************************************** %>
 
