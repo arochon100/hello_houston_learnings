@@ -5,13 +5,15 @@
 .banner-home {
     background-size: cover;
     background-position: center;
-    height: 400px;
+    height: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-bottom: 20px;
     color: white;
     text-align: center;
+    padding: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -19,6 +21,9 @@
     height: 350px;
   }
 } 
+
+// ************************************** H1 ***********************************************
+// ************************************** H1 ***********************************************
 
 .banner-home  h1 {
     font-size: 25px;
@@ -29,36 +34,51 @@
 
 @media screen and (min-width: 768px) {
   .banner-home h1  {
-    font-size: 30px;
+    font-size: 35px;
   }
 } 
 
-.banner-home  h2 {
+// ************************************** H2 ***********************************************
+// ************************************** H2 ***********************************************
+
+.home-banner-h2 {
     font-size: 20px;
     font-weight: bold;
-    color: red;
+    color:#ccecfa;
     margin-top: 20px;
 }
 
-@media screen and (min-width: 768px) {
-  .banner-home h2  {
+@media screen and (min-width: 1100px) {
+  .home-banner-h2  {
     font-size: 30px;
+    width: 1000px;
   }
 } 
 
-.banner-home  h3 {
+
+// ************************************** H3 ***********************************************
+// ************************************** H3 ***********************************************
+
+.home-banner-h3 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: white;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-    
+    margin-top: 10px;
 }
 
-@media screen and (min-width: 768px) {
-  .banner-home h3  {
-    font-size: 25px;
+@media screen and (min-width: 1100px) {
+  .home-banner-h3  {
+    font-size: 20px;
+    width: 1000px;
   }
 } 
+
+
+
+// ************************************** p ***********************************************
+// ************************************** p ***********************************************
 
 .banner-home  p {
 
