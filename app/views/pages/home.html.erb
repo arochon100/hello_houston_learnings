@@ -7,12 +7,26 @@ nature, musique, cooking, lecture, mathématiques, puzzle, robotique, rangement,
 <% end %>
 
 
+<%# ************************* FACEBOOK *************************************************** %>
+<% content_for :head do %>
+<meta property="og:url"                content="https://www.hello-houston-learnings.com/" />
+<meta property="og:type"               content="website" />
+<meta property="og:title"              content="Les Apprentissages par le Jeu pour les Enfants de 2 à 6 ans | Hello Houston Learnings" />
+<meta property="og:description"        content="Les apprentissages pour les enfants de 2 à 6 ans basés
+                                                sur les neurosciences, la méthode de Singapour et la pédagogie Montessori : 
+                                                nature, musique, cooking, lecture, mathématiques, puzzle, robotique, rangement, science..." />
+<meta property="og:image"              content="" />
+<% end %>
+<%# ************************* FACEBOOK *************************************************** %>
+
+
 <%# NAVBAR %>
   <%= render 'shared/navbar_official' %> 
 
 <%# BANNER %>
-<div class="banner-home" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'banner_tree_2.jpg' %>)">
-
+<div class="banner-home" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(<%= asset_path 'banner_tree_2.jpg' %>); position:relative;">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.hello-houston-learnings.com" 
+                class="btn-facebook" target="_blank"><i class="fab fa-facebook"></i></a>
             
                 <h1>HELLO HOUSTON LEARNINGS</h1> 
                 <h2 class="home-banner-h2" >La boîte à idées des parents pour les apprentissages par le jeu de leurs enfants de 2 à 6 ans.</h2>
