@@ -25,8 +25,8 @@ apprendre à aimer la nature est un des plus beaux cadeaux qu'on puisse faire à
 <%# ************************* FACEBOOK *************************************************** %>
 <% content_for :head do %>
 <meta property="og:url"                content="https://www.hello-houston-learnings.com/apprentissage-nature-enfant-2-a-6-ans" />
-<meta property="og:type"               content="website" />
-<meta property="og:title"              content="L'apprentissage par le jeu de la nature pour les enfants de 2 à 6 ans | Hello Houston Learnings" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="Apprentissage par le jeu de la nature pour les enfants de 2 à 6 ans | Hello Houston Learnings" />
 <meta property="og:description"        content="Apprendre à aimer la nature est un des plus beaux cadeaux qu'on puisse faire à un enfant." />
 <meta property="og:image"              content="https://www.hello-houston-learnings.com/assets/AAA-nature-banner-c6540af6af40d8c51327ab77a4ba770a795a30b88fc1c0a02d55c5d5936aba6b.jpg" />
 <% end %>
@@ -40,15 +40,19 @@ apprendre à aimer la nature est un des plus beaux cadeaux qu'on puisse faire à
 
 <%# BANNER %>
 <div class="banner-puzzle" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
-url(<%= asset_path 'AAA-nature-banner.jpg' %>)">
+url(<%= asset_path 'AAA-nature-banner.jpg' %>); position: relative;">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.hello-houston-learnings.com/apprentissage-nature-enfant-2-a-6-ans" 
+                class="btn-facebook" target="_blank"><i class="fab fa-facebook"></i></a>
     <div class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 learning-banner-flex"">
                 <h1 style="margin-bottom:0px">L'APPRENTISSAGE PAR LE JEU DE LA NATURE POUR LES ENFANTS DE 2 À 6 ANS</h1> 
+                
             </div>
         </div>
     </div>  
 </div>
+
 
 
 <%# ARIADNE'S THREAD %>

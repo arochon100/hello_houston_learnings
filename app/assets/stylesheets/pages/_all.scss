@@ -62,7 +62,7 @@ font-size: 14px;
 font-weight: bold; 
 color: #03bddf;
 margin:0px auto 30px auto;
-padding: 0 3px;
+padding: 5px;
 }
 
 
@@ -84,4 +84,12 @@ padding: 0 3px;
 
 .img-zoom {
     width:120% !important;
+}
+
+
+.btn-facebook {
+    font-size: 25px;
+    position: absolute!important;
+    bottom: 10px!important;
+    left: 10px !important;
 }

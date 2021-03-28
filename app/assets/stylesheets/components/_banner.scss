@@ -591,6 +591,14 @@ and (max-width: 1099px)
 
 //APPRENTISSAGES > PUZZLE
 
+.learning-banner-flex {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .banner-puzzle {
     background-size: cover;
     background-position: center;

@@ -15,7 +15,7 @@ apprendre à compter devient un jeu d'enfant avec la méthode de Singapour et la
 <% content_for :head do %>
 <meta property="og:url"                content="https://www.hello-houston-learnings.com/apprentissage-mathematiques-enfant-2-a-6-ans" />
 <meta property="og:type"               content="website" />
-<meta property="og:title"              content="L'apprentissage par le jeu des mathématiques pour les enfants de 2 à 6 ans | Hello Houston Learnings" />
+<meta property="og:title"              content="Apprentissage par le jeu des mathématiques pour les enfants de 2 à 6 ans | Hello Houston Learnings" />
 <meta property="og:description"        content="Apprendre à compter devient un jeu d'enfant avec la méthode de Singapour et la pédagogie Montessori." />
 <meta property="og:image"              content="https://www.hello-houston-learnings.com/assets/banner-singapour-954d1b101c99d75b3613a9d728f93390d651a00393262c60c2e04fe6827e72e7.jfif" />
 <% end %>
@@ -28,17 +28,28 @@ apprendre à compter devient un jeu d'enfant avec la méthode de Singapour et la
 
 <%# BANNER %>
 <div class="banner-puzzle" style="background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), 
-url(<%= asset_path 'banner-singapour.jfif' %>)">
+url(<%= asset_path 'banner-singapour.jfif' %>); position: relative;">
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.hello-houston-learnings.com/apprentissage-mathematiques-enfant-2-a-6-ans" 
+                class="btn-facebook" target="_blank"><i class="fab fa-facebook"></i></a>
     <div class="container">
         <div class="row">
-            <div class="col-12">
-                <h1 style="margin-bottom:0px">L'APPRENTISSAGE PAR LE JEU DES MATHÉMATIQUES POUR LES ENFANTS DE 2 À 6 ANS</h1> 
+            <div class="col-12 learning-banner-flex" >
+                <h1 style="margin-bottom:0px">L'APPRENTISSAGE PAR LE JEU DES MATHÉMATIQUES POUR LES ENFANTS DE 2 À 6 ANS</h1>
+                
             </div>
         </div>
     </div>  
 </div>
 
-
+<%# <div class="container">
+    <div class="row">
+    <div class="col-1"></div>
+        <div class="Col-10" style="display: flex; justify-content: start; align-items:center;">
+            
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div> %>
 
 
 <%# ARIADNE'S THREAD %>
@@ -58,6 +69,10 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
 <%= render 'shared/the_selection'  %>
 
 
+
+
+
+
 <!-- 2 colonnes -->
 <!-- 2 colonnes  -->
 
@@ -70,6 +85,8 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
         <!-- Colonne col-lg-9 -->
         <div class="col-12 col-lg-9 math" >
             <!-- Colonne col-lg-9 > body -->
+
+
 
 
 
@@ -172,6 +189,8 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
                     </div>
                 </div>
                 <!-- container menu -->
+
+
 
 
 <%# **************************MENU************************************ %>
@@ -1789,6 +1808,5 @@ url(<%= asset_path 'banner-singapour.jfif' %>)">
     
     </div>
 </div>
-
 
 

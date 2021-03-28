@@ -6,3 +6,8 @@ images.forEach((img) => {
         event.currentTarget.classList.toggle("img-zoom");
     });
 });
+
+
+
+
+
