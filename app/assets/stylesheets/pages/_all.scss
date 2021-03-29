@@ -94,3 +94,11 @@ padding: 5px;
     left: 10px !important;
     color: white;
 }
+
+@media screen and (min-width: 1650px) {
+    .btn-facebook  {
+        position: absolute!important;
+        bottom: 5px!important;
+        left: 350px !important;
+    }
+} 
