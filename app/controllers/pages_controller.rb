@@ -7,7 +7,7 @@ class PagesController < ApplicationController
   :apprentissages_boosters_singapour, :apprentissages_boosters_montessori, :apprentissages_boosters_environnement_maison,
   :apprentissages_puzzle, :apprentissages_nature, :apprentissages_temps, :apprentissages_math, :apprentissages_cuisiner,
    :apprentissages_musique, :apprentissages_lecture, :homebis_1, :apprentissages_huit_intelligences,
-    :download_pdf, :download_jpg, :sitemap_txt, :presentation, :apprentissages_programmation]
+    :download_pdf, :download_jpg, :sitemap_txt, :presentation, :apprentissages_programmation, :apprentissage_math_promo]
 
   def home
   end
@@ -201,6 +201,19 @@ end
 
                 def apprentissages_boosters_montessori
                 end
+
+
+# *****************************************
+# *****************************************
+# *****************************************
+# *****************************************
+
+#PROMO
+
+#APPRENTISSAGES > MATH
+
+        def apprentissage_math_promo
+        end
 
                 
 end
