@@ -113,7 +113,8 @@ get 'presentation' , to: 'pages#presentation'
 get 'apprentissage-mathematiques-enfant-2-a-6-ans-p' , to: 'pages#apprentissage_math_promo'
 # get 'apprentissage-mathematiques-enfant-2-a-6-ans-p', to: redirect('apprentissage-mathematiques-enfant-2-a-6-ans', status: 302)
 
-get 'apprentissage-nature-forest-school-enfant-2-a-6-ans-p' , to: 'pages#apprentissage_nature_promo'
+# get 'apprentissage-nature-forest-school-enfant-2-a-6-ans-p' , to: 'pages#apprentissage_nature_promo'
+get 'apprentissage-nature-forest-school-enfant-2-a-6-ans-p', to: redirect('apprentissage-nature-enfant-2-a-6-ans', status: 302)
 
 end  
   
