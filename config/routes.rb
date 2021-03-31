@@ -117,7 +117,7 @@ get 'apprentissage-nature-forest-school-enfant-2-a-6-ans-p-x-y' , to: 'pages#app
 # get 'apprentissage-nature-forest-school-enfant-2-a-6-ans-p', to: redirect('apprentissage-nature-enfant-2-a-6-ans', status: 302)
 
 get 'apprentissage-lecture-lettres-rugueuses-enfant-2-a-6-ans-p' , to: 'pages#apprentissage_lecture_promo_1'
-# get 'apprentissage-nature-forest-school-enfant-2-a-6-ans-p', to: redirect('apprentissage-nature-enfant-2-a-6-ans', status: 302)
+# get 'apprentissage-lecture-lettres-rugueuses-enfant-2-a-6-ans-p', to: redirect('apprentissage-lecture-enfant-2-a-6-ans', status: 302)
 
 
 end  
