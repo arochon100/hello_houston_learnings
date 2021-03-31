@@ -8,7 +8,7 @@ class PagesController < ApplicationController
   :apprentissages_puzzle, :apprentissages_nature, :apprentissages_temps, :apprentissages_math, :apprentissages_cuisiner,
    :apprentissages_musique, :apprentissages_lecture, :homebis_1, :apprentissages_huit_intelligences,
     :download_pdf, :download_jpg, :sitemap_txt, :presentation, :apprentissages_programmation, :apprentissage_math_promo, 
-    :apprentissage_nature_promo]
+    :apprentissage_nature_promo_2]
 
   def home
   end
@@ -216,7 +216,7 @@ end
         def apprentissage_math_promo
         end
 
-        def apprentissage_nature_promo
+        def apprentissage_nature_promo_2
         end
 
                 
