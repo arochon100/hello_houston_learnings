@@ -7,22 +7,42 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
+
+<%# ******************************** LISTE "UL" ******************************* %>   
       <ul class="navbar-nav">
          
 
+<%# ******************************** PRÉSANTATION ******************************* %>
         <li class="nav-item">
            <%= link_to "Présentation", presentation_path, class: "nav-link" , data: { turbolinks: false } %>
         </li>
+
+<%# ******************************** LEARNINGS 2 À 6 ANS ******************************* %>
         <li class="nav-item">
-           <%= link_to "Apprentissages pour les 2 à 6 ans", apprentissages_path, class: "nav-link" , data: { turbolinks: false } %>
+           <%= link_to "Apprentissages", apprentissages_path, class: "nav-link" , data: { turbolinks: false } %>
         </li>
+
+<%# ******************************** DEÉVELOPPEMENT DE L'ENFANT ******************************* %>
         <li class="nav-item">
-          <%= link_to "Développement de l'enfant", developpement_enfant_path, class: "nav-link" , data: { turbolinks: false } %>
+          <%= link_to "Développement", developpement_enfant_path, class: "nav-link" , data: { turbolinks: false } %>
         </li>
+
+<%# ******************************** BOOSTERS DE L'APPRENTISSAGE ******************************* %>
         <li class="nav-item">
-          <%= link_to "Boosters de l'apprentissage", apprentissages_boosters_path, class: "nav-link" , data: { turbolinks: false } %>
+          <%= link_to "Boosters", apprentissages_boosters_path, class: "nav-link" , data: { turbolinks: false } %>
         </li>
+
+<%# ******************************** BOOSTERS DE L'APPRENTISSAGE ******************************* %>
+        <li class="nav-item">
+          <%= link_to "Fantastiques", fantastiques_path, class: "nav-link" , data: { turbolinks: false } %>
+        </li>
+
+
       </ul>
+<%# ******************************** LISTE "UL" ******************************* %>   
+
+
+
     </div>
   </div>
 </nav>

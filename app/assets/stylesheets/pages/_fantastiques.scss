@@ -1,0 +1,44 @@
+
+
+.fantastiques-h1-container-margin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+
+}
+
+
+.fantastiques-h1-contenu h1 {
+    text-align: center;
+    font-weight: bold ;
+    font-size: 35px;
+    padding: 5px;
+    // color: #03bddf;
+}
+
+
+.fantastiques-citations-container-margin {
+
+    margin-top: 50px;
+
+}
+
+.fantastiques-citations-contenu {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.fantastiques-citations-contenu h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #03bddf;
+}
+
+.fantastiques-container-body {
+    margin-top: 30px;
+}

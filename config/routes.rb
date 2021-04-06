@@ -100,15 +100,26 @@ get 'presentation' , to: 'pages#presentation'
           #TROUBLES > AUDITION
           # get 'developpement-enfant-troubles-audition' , to: 'pages#troubles_audition'
           get 'developpement-enfant-troubles-audition', to: redirect('developpement-enfant-troubles', status: 301)
-  
-# ***********************************************************************
-# ***********************************************************************
-# ***********************************************************************
-          
 
 
 
- # PROMO
+
+# ************************** FANTASTIQUES ************************
+# ************************** FANTASTIQUES ************************
+# ************************** FANTASTIQUES ************************
+
+
+get 'fantastiques' , to: 'pages#fantastiques'
+# get 'apprentissage-mathematiques-enfant-2-a-6-ans-p', to: redirect('apprentissage-mathematiques-enfant-2-a-6-ans', status: 302)
+
+
+
+
+
+# ************************** PROMO ************************
+# ************************** PROMO ************************
+# ************************** PROMO ************************
+
 
 get 'apprentissage-mathematiques-enfant-2-a-6-ans-p' , to: 'pages#apprentissage_math_promo'
 # get 'apprentissage-mathematiques-enfant-2-a-6-ans-p', to: redirect('apprentissage-mathematiques-enfant-2-a-6-ans', status: 302)

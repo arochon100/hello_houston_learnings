@@ -1,0 +1,257 @@
+
+<%# *************************TITLE*************************************************** %>
+<% @title="Apprentissage par le Jeu de la Nature pour les Enfants 2 à 6 ans | Hello Houston Learnings" %>
+<%# *************************TITLE*************************************************** %>
+
+
+
+
+
+
+<%# *************************DESCRIPTION*************************************************** %>
+<% content_for :head do %>
+    <meta name="description" content="L'apprentissage par le jeu de la nature pour les enfants de 2 à 6 ans : 
+apprendre à aimer la nature est un des plus beaux cadeaux qu'on puisse faire à un enfant.">
+<% end %>
+<%# *************************DESCRIPTION*************************************************** %>
+
+
+<%# *************************CANONICAL*************************************************** %>
+<% content_for :head do %>
+    <link rel="canonical" href="https://www.hello-houston-learnings.com/apprentissage-nature-enfant-2-a-6-ans" />
+<% end %>
+<%# *************************CANONICAL*************************************************** %>
+
+
+<%# ************************* FACEBOOK *************************************************** %>
+<% content_for :head do %>
+<meta property="og:url"                content="https://www.hello-houston-learnings.com/apprentissage-nature-enfant-2-a-6-ans" />
+<meta property="og:type"               content="article" />
+<meta property="og:title"              content="Apprentissage par le Jeu de la Nature pour les Enfants 2 à 6 ans | Hello Houston Learnings" />
+<meta property="og:description"        content="Apprendre à aimer la nature est un des plus beaux cadeaux qu'on puisse faire à un enfant." />
+<meta property="og:image"              content="https://www.hello-houston-learnings.com/assets/AAA-nature-banner-c6540af6af40d8c51327ab77a4ba770a795a30b88fc1c0a02d55c5d5936aba6b.jpg" />
+<% end %>
+<%# ************************* FACEBOOK *************************************************** %>
+
+
+
+
+<%# NAVBAR %>
+  <%= render 'shared/navbar_official'  %>
+
+
+<%# ARIADNE'S THREAD %>
+<div class="container ariane-container">
+    <div class="row">
+        <div class="fil-ariane">
+             <p>
+             <%= link_to "home", root_path, class: " link ariane", id: "menu-start", data: { turbolinks: false } %> > 
+             <%= link_to "fantastiques", fantastiques_path, class: " link ariane", data: { turbolinks: false } %> 
+             </p>     
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%# ************************************** PAGE > H1************************************** %>
+
+<div class="container fantastiques-h1-container-margin">
+    <div class="row">
+    
+
+
+        <div class="col-12 fantastiques-h1-contenu">
+            <h1>Les fantastiques de l'apprentissage</h1>
+        </div>    
+    
+    
+    
+    
+    </div>
+</div>
+
+
+<%# ************************************** FANTASTIQUES ==> BLOC BLEU + LIVRES ************************************** %>
+
+<%= render 'shared/les_fantastiques'  %>
+
+<div class="container" style="margin-top:40px;">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <hr>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+
+
+<%# ************************************** CITATIONS ************************************** %>
+
+
+<div class="container fantastiques-citations-container-margin">
+    <div class="row">
+    
+
+
+        <div class="col-12 fantastiques-citations-contenu">
+            <h2>Les citations</h2>
+        </div>    
+    
+    
+    
+    
+    </div>
+</div>
+
+
+<div class="container fantastiques-container-body">
+    <div class="row">
+
+
+
+<%# **************************************
+NEUROSCIENCES
+************************************** %>
+
+        <div class="col-12">
+            <div class="home-quote-div">
+                <blockquote>
+                    <h2 class="quote-width-992px">
+                    "Les deux plus hautes formes d'excellence dans l'économie de la connaissance
+                    sont l'excellence amoureuse et l'excellence amusante."
+                    </h2>
+                    <cite class="home-cite">
+                    Libérez votre cerveau ! de Idriss Aberkane
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+
+<%# **************************************
+MONTESSORI
+************************************** %>
+
+        <div class="col-12 col-12-margin-top">
+            <div class="home-quote-div">
+                <blockquote>
+                    <h2 class="quote-width-992px">
+                    "La période la plus importante de la vie se situe entre 
+                    la naissance et six ans et non pas durant les études universitaires."
+                    </h2>
+                    <cite class="home-cite">
+                    Maria Montessori
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+
+
+
+<%# **************************************
+MUSIQUE - ISABELLE PERETZ
+************************************** %>
+
+        <div class="col-12 col-12-margin-top">
+            <div class="home-quote-div">
+                <blockquote>
+                    <h2 class="quote-width-992px">
+                    "Faire de la musique favorise les apprentissages scolaires. L’explication la plus probable 
+                    est qu’apprendre la musique améliore les fonctions dites exécutives. Ces dernières regroupent 
+                    un ensemble d’habiletés impliquées dans la planification, la mémoire de travail, l’inhibition
+                    de réponses inappropriées et la concentration. Les fonctions exécutives sont dites transversales
+                    parce qu’elles opèrent de la même façon en lecture, en mathématiques, dans l’apprentissage
+                    d’une langue étrangère ou dans l’apprentissage de la musique. Le développement de ces 
+                    fonctions exécutives serait favorisé par l’apprentissage de la musique, surtout durant 
+                    le développement, y compris pendant l’adolescence."
+
+                    </h2>
+                    <cite class="home-cite">
+                    Peretz, Isabelle. Apprendre la musique - Odile Jacob.
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+
+<%# **************************************
+MONTESSORI - CHARLOTTE POUSSIN
+************************************** %>
+
+        <div class="col-12 col-12-margin-top">
+            <div class="home-quote-div">
+                <blockquote>
+                    <h2 class="quote-width-992px">
+                    "Montessori. On entend souvent parler de méthode, de pédagogie, d'approche, d'éducation.
+                    Les deux termes que j'utilise le plus souvent sont "approche" et "éducation" parce que 
+                    c'est avant tout un état d'esprit. Montessori n'est pas figé dans le marbre. Ce n'est 
+                    pas une recette que l'on déroule et qu'on applique. C'est un respect de l'enfant, 
+                    une approche et un état d'esprit qui fait confiance à l'enfant, qui le place au centre,
+                    non pas pour en faire un enfant roi, mais pour que jaillisse et se développe sa 
+                    personnalité de façon harmonieuse en étant respectueuse de lui-même et des autres."
+                    </h2>
+                    <cite class="home-cite">
+                    Charlotte Poussin, éducatrice Montessori
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+
+
+
+
+
+
+<%# **************************************
+SINGAPOUR
+************************************** %>
+
+        <div class="col-12 col-12-margin-top">
+            <div class="home-quote-div">
+                <blockquote>
+                    <h2 class="quote-width-992px">
+                    "La méthode de Singapour aide les enfants à réfléchir, à raisonner. Elle les incite à voir la présence
+                        des mathématiques dans leur vie, leurs applications et même leur beauté. La manipulation et la 
+                        résolution de problèmes mettant en scène des situations concrètes mènent progressivement à 
+                        l'abstraction, ce qui permet d'assoir des connaissances approfondies qui peuvent aider à 
+                        la compréhension de notions plus avancées, introduites au collège, au lycée, et même à l'université."
+                    </h2>
+                    <cite class="home-cite">
+                    Monica Neagoy - didacticienne qui a traduit et adapté la méthode Singapour en France.
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+
+
+        <div class="col-12 col-12-margin-top col-12-margin-bottom">
+            <div class="home-quote-div">
+                <blockquote>
+                    <h2 class="quote-width-992px">
+                    "Le jeu amène avec facilité au calcul mental, qui est la porte d'entrée dans les maths."
+                    </h2>
+                    <cite class="home-cite">
+                    Éric Trouillot - créateur du jeu Mathador.
+                    </cite>
+                </blockquote>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+</div>
